@@ -237,7 +237,7 @@
     <string name="action_logout">로그 아웃</string>
     <string name="action_mark_all_read">Mark All as Read</string>
     <string name="privacy_policy">서비스 정책</string>
-    <string name="st_reg">You need to log in to apply</string>
+    <string name="st_reg">적용하려면 로그인해야합니다</string>
     <string name="st_skill">경험 수준</string>
     <string name="title_activity_edit_job">EditJobActivity</string>
     <string name="st_hintTotNghiep">졸업 학교</string>
@@ -704,10 +704,10 @@
     <!--<string name="no_data">데이터 없음</string>-->
     <string name="changelocation">위치 변경</string>
     <string name="report_problem">문제를보고하십시오</string>
-    <string name="title_activity_chatting">Chat</string>
-    <string name="st_xoaChat">Are you sure to delete this chat?</string>
-    <string name="st_done">Done</string>
-    <string name="st_deleteprofile">Do you really want to delete the Profile?</string>
-    <string name="st_chuacoCV">You don’t have job</string>
-    <string name="st_chuaSaveCV">Dont have any saved job</string>
+    <string name="title_activity_chatting">잡담</string>
+    <string name="st_xoaChat">이 채팅을 삭제 하시겠습니까?</string>
+    <string name="st_done">끝난</string>
+    <string name="st_deleteprofile">정말로 프로필을 삭제 하시겠습니까?</string>
+    <string name="st_chuacoCV">너는 직업이 없다</string>
+    <string name="st_chuaSaveCV">저장된 작업 없음</string>
 </resources>

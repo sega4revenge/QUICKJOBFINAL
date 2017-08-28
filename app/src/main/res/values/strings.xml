@@ -172,7 +172,7 @@
 
     <!--content detail profile-->
     <string name="st_hs">PROFILE</string>
-    <string name="st_sdt">Numberphone</string>
+    <string name="st_sdt">Phone number</string>
     <string name="st_quequan">Country</string>
     <string name="st_diachict">Address</string>
     <string name="st_mucluongct">Wage</string>
@@ -214,7 +214,7 @@
     <string name="st_den">To</string>
 
     <!--edit_profile-->
-    <string name="st_tenProf">Last name and first name</string>
+    <string name="st_tenProf">Name</string>
     <string name="st_btnChonNgaySinh">Choose/ select the date of birthday</string>
     <string name="st_ttLienHe">CONTACTED INFORMATION</string>
     <string name="st_ttKinhNghiem">Experience(optional)</string>
@@ -468,7 +468,7 @@
     <!--&lt;!&ndash;login&ndash;&gt;-->
     <!--<string name="st_hintEmail">Email</string>-->
     <!--<string name="st_hintPass">Password</string>-->
-    <string name="st_forgotPass"><u>forget password</u></string>
+    <string name="st_forgotPass"><u>Forgot password</u></string>
     <!--<string name="st_txtDangNhap">Did you got account?sign in now</string>-->
     <!--<string name="st_renewpass">Retype new password</string>-->
     <!--<string name="st_nhapMaXN">Enter verify code</string>-->
@@ -491,7 +491,7 @@
     <!--<string name="title_activity_information">Information Account</string>-->
     <!--<string name="title_activity_chanepass">Change Password.</string>-->
     <!--<string name="st_chuaUngTuyenCV">Not yet apply any work.</string>-->
-    <string name="st_chuaSaveCV">Dont have any saved job</string>
+    <string name="st_chuaSaveCV">Do not have any saved job</string>
     <!--<string name="addProfile">Choose profile</string>-->
     <!--<string name="st_loiKXD">Error</string>-->
     <!--<string name="st_pemissonCamera">You need to license to use the call</string>-->

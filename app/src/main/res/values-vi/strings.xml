@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Việc làm - QuickJob</string>
+    <string name="app_name">Việc làm QuickJob</string>
 
     <string name="slide_1_title_search">Tìm kiếm nhanh chóng</string>
     <string name="slide_2_tile_saving_time">Tiết kiệm tối đa</string>
@@ -30,7 +30,7 @@
 
 
     <!-- Navigation Drawer menu labels -->
-    <string name="tab_ProfileManger">hồ sơ</string>
+    <string name="tab_ProfileManger">Hồ sơ</string>
     <string name="nav_notification">Thông báo</string>
     <string name="title_activity_need_job">Gần đây</string>
     <!-- Toolbar titles when navigation menu item is selected -->
@@ -41,7 +41,7 @@
         <item>Hồ sơ</item>
         <item>Cài đặt</item>
     </string-array>
-    <string name="st_apply">ứng tuyển</string>
+    <string name="st_apply">Ứ ng tuyển</string>
     <string name="st_morePer">TOP JOB IN</string>
     <string name="jobapply">Công việc đã ứng tuyển</string>
     <string name="jobsave">Công việc đã lưu</string>
@@ -285,7 +285,7 @@
     <string name="tthoso">Thông tin hồ sơ</string>
     <string name="ngaydang">Ngày đăng</string>
 
-    <string name="st_err_gps">GPS is settings</string>
+    <string name="st_err_gps">Cài đặt GPS</string>
     <string name="st_err_gps_messeger">Hãy bật GPS để QuickJob có thể tìm thấy công việc gần bạn nhất.</string>
     <string name="ST_notification">Nhấn vào đây để bật tắt thông báo</string>
     <string name="ST_info">Nhấn vào đây để xem thông tin tài khoản</string>
