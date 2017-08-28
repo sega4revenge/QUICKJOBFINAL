@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" package="com.quickjob.quickjobFinal">
+
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.CALL_PHONE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="com.finger.jobfind.permission.MAPS_RECEIVE" />
+<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.VIBRATE" />
+<!--<uses-permission-sdk-m android:name="android.permission.READ_CONTACTS" />-->
+<!--<uses-permission-sdk-m android:name="android.permission.WRITE_CONTACTS" />-->
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+
+<application android:name="com.quickjob.quickjobFinal.AppController" android:allowBackup="true" android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme"
+    tools:replace="android:icon,android:label">
+    <activity android:name="com.quickjob.quickjobFinal.IntroActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+
+    <service android:name="com.quickjob.quickjobFinal.MyFirebaseMessagingService">
+        <intent-filter>
+            <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+    </service>
+    <service android:name="com.quickjob.quickjobFinal.MyFirebaseInstanceIDService">
+        <intent-filter>
+            <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+        </intent-filter>
+    </service>
+
+
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.EditInfoActivity" android:label="@string/title_activity_editaccount"
+        android:screenOrientation="portrait" android:theme="@style/AppThemeIntro" />
+    <activity
+        android:name="com.quickjob.quickjobFinal.quickjobFind.activity.CreateProfileActivity"
+        android:label="@string/st_createHS"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="stateHidden" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.RegisterActivity" android:screenOrientation="portrait"
+        android:label="@string/st_dangky" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.InfoActivity" android:label="@string/title_activity_information"
+        android:screenOrientation="portrait" android:theme="@style/AppThemeIntro" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.AboutUsActivity" android:label="@string/activity_title_about_us"
+        android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"></activity>
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.EditProfileActivity" android:label="@string/st_editHS"
+        android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.ChangePasswordActivity" android:label="@string/title_activity_chanepass"
+        android:screenOrientation="portrait"></activity>
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.NeedJobActivity" android:label="@string/title_activity_need_job"
+        android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.SearchJobActivity" android:configChanges="orientation|keyboardHidden|screenSize"
+        android:label="@string/st_timkiem" android:screenOrientation="portrait" android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateHidden" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.Information_Company" android:label="@string/title_activity_information__company"
+        android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.MorePremium_Acitivity" android:screenOrientation="portrait" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.MoreNormal_Activity"
+        android:screenOrientation="portrait" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.MoreNew_Activity" android:label="@string/title_activity_more_new_"
+        android:screenOrientation="portrait" />
+    <activity android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+        android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.LoginActivity" android:configChanges="orientation|screenSize"
+        android:screenOrientation="portrait" android:theme="@style/AppThemeIntro"
+        android:windowSoftInputMode="stateHidden"></activity>
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.ForgotPasswordActivity" android:screenOrientation="portrait"
+        android:label="@string/st_forgotPass"
+
+    />
+    <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.NearMapsActivity" android:label="@string/title_activity_near_maps" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.MainActivity" android:screenOrientation="portrait"
+        android:theme="@style/MyMaterialTheme" android:windowSoftInputMode="stateHidden"></activity>
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key_Find" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.viduactivity" android:label="@string/title_activity_viduactivity"
+        android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.ChattingActivity" android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.JobDetailActivity" android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="stateHidden"></activity>
+    //============================//
+
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.AboutUsActivity" android:configChanges="orientation|screenSize"
+        android:label="@string/activity_title_about_us" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.PrivacyPolicyActivity" android:configChanges="orientation|screenSize"
+        android:label="@string/activity_title_privacy_policy" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.LoginActivity" android:configChanges="orientation|screenSize"
+        android:windowSoftInputMode="adjustResize|stateHidden" android:label="@string/st_btnLogin" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.CreateJob_step" android:configChanges="orientation|screenSize"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.ChattingActivity" android:theme="@style/AppTheme.NoActionBar"
+        android:windowSoftInputMode="adjustResize|stateHidden" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.Register_Employer" android:configChanges="orientation|screenSize"
+        android:label="@string/st_btnTaoTK" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.Create_Job_Activity" android:configChanges="orientation|screenSize"
+        android:label="@string/fabcreate" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.MainActivity" android:configChanges="orientation|screenSize"
+        android:label="@string/st_timkiem" android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.Edit_Job_activity" android:configChanges="orientation|screenSize"
+        android:label="@string/title_activity_updatejob" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.ForgotPasswordActivity" android:configChanges="orientation|screenSize"
+        android:label="@string/st_quenmkTK" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.ForgotPasswordSecondActivity"
+        android:configChanges="orientation|screenSize" android:label="@string/st_quenmkTK" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.ForgotPasswordSecondActivity"
+        android:configChanges="orientation|screenSize" android:label="@string/st_quenmkTK" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.DetailProfileActivity" android:configChanges="orientation|screenSize"
+        android:label="@string/title_activity_detail_profile" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.SearchProfileSecond" android:configChanges="orientation|screenSize"
+        android:label="@string/title_activity_detail_profile" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.RecruitmentListActivity" android:configChanges="orientation|screenSize"
+        android:label="@string/title_activity_recruitment_list" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.InfoActivity" android:configChanges="orientation|screenSize"
+        android:label="@string/title_activity_information" android:theme="@style/AppThemeIntro" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.EditInfoActivity" android:configChanges="orientation|screenSize"
+        android:label="@string/title_activity_editaccount" android:theme="@style/AppThemeIntro" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.ChangePasswordActivity" android:configChanges="orientation|screenSize"
+        android:label="@string/title_activity_chanepass" />
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.JobDetailActivity" android:configChanges="orientation|screenSize"
+        android:windowSoftInputMode="stateHidden" />
+    <activity android:name="za.co.riggaroo.materialhelptutorial.tutorial.MaterialTutorialActivity"
+        android:configChanges="orientation|screenSize" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+
+    <meta-data android:name="io.fabric.ApiKey" android:value="d1d1b70c633bdc569a426196f89166e675829623" />
+
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.MapsActivity" android:label="@string/title_activity_maps" />
+
+    <activity android:name="com.quickjob.quickjobFinal.quickjobHire.activity.ProfileDetailActivity" android:label="@string/title_activity_detail_profile"
+        android:theme="@style/AppTheme.NoActionBar"></activity>
+</application>
+
+</manifest>

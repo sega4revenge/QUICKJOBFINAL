@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickJob</string>
+    <!--<string name="title_activity_dangky">dangky</string>-->
+    successfully
+    <string name="slide_1_title_search">빠른 검색</string>
+    <string name="slide_2_tile_saving_time">최대한 절약</string>
+    <string name="slide_3_title_notification">인스탄트 메시지</string>
+    <string name="slide_4_title_start">지금 시작할까요?</string>
+    <string name="slide_1_african_story_books_subtitle">요구에 따라 직겁과 후보자를 정확하게 찾아주다</string>
+    <string name="slide_2_volunteer_professionals_subtitle">사용자의 시간과 돈을 절약.</string>
+    <string name="slide_3_download_and_go_subtitle">잘 맞는 직업이 있으면 알려주고 계속 업데이트</string>
+    <string name="slide_4_different_languages_subtitle">경험해보고 가장 마음에 드는 일을 찾아보세요</string>
+    <string name="view_sample_tut">View Tutorial Example</string>
+    <string name="cross">Cross</string>
+    <string name="tutorial_done">START</string>
+    <string name="tutorial_skip">넘기기</string>
+    <string name="title_activity_maps">지도</string>
+    <string name="st_selectLocation2">근무 장소</string>
+    <string name="drawer_open">메뉴 열기</string>
+    <string name="drawer_close">메뉴 닫기</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">다음</string>
+    <string name="step1">Bước 1: Nhập thông tin công ty</string>
+    <string name="step2">Bước 2: Nhập thông tin công việc</string>
+    <string name="skip">넘기기</string>
+    <string name="start">Start</string>
+    <string name="action_settings">설정</string>
+    <string name="slide_1_title">검색</string>
+    <string name="slide_1_desc">요구에 따라 직겁과 후보자를 정확하게 찾아주다 </string>
+    <string name="st_upadate">업데이트</string>
+    <string name="slide_2_title">Sparge</string>
+    <string name="slide_2_desc">시간과 돈을 절약</string>
+
+    <string name="slide_3_title">통보</string>
+    <string name="slide_3_desc">직업 알림을 매일 수신</string>
+
+    <string name="slide_4_title">시작</string>
+    <string name="slide_4_desc">QuickJob 앱을 사용하기를 환영합니다</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">다시 시작</string>
+
+    <string name="title_activity_xuat_tim_kiem">XuatTimKiem</string>
+    <string name="title_activity_hoso_cv">윤곽</string>
+    <string name="title_activity_create_hoso">프로필 만들기</string>
+    <string name="title_activity_home__user">홈</string>
+
+
+    <!-- Content Description -->
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_list__jop">List_Jop</string>
+    <string name="title_activity_edit_profile">프로필을 수정</string>
+    <string name="nav_home">이력서 검색</string>
+    <string name="nav_menu_2">직업 등록</string>
+    <string name="nav_menu_3">지원자 관리</string>
+    <string name="nav_menu_4">이력서 저장</string>
+    <string name="nav_menu_5">계정</string>
+    <string name="nav_menu_6">나가기</string>
+    <string name="nav_settings">환경 설정</string>
+    <string name="nav_about_us">우리에 대해 </string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>검색</item>
+        <item>이력서 저장</item>
+        <item>잡담</item>
+        <item>관리 업무</item>
+        <item>계정 설정</item>
+    </string-array>
+    <!-- search dialof-->
+    <string name="search_main">직업 검색</string>
+    <string name="search_filter">검색</string>
+    <!-- search dialof-->
+    <string name="activity_title_about_us">우리에 대해 </string>
+    <string name="activity_title_privacy_policy">레지스터</string>
+    <string name="action_deletejpb">삭제</string>
+    <string name="openDrawer">Open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="nn">모든 커리어</string>
+    <string name="dd">모든 장소</string>
+    <string name="ml">급여 범위</string>
+    <string name="title_activity_recruitment_list">Recruitment_list</string>
+    <string name="title_activity_information">개인적인 정보</string>
+    <string name="title_activity_updatejob">직업 정보 수정</string>
+    <string name="title_activity_account">계정</string>
+    <string name="title_activity_editaccount">계정 수정</string>
+    <string name="addProfile">적용 CV를 선택</string>
+    <string name="title_activity_detail_profile">상세 프로필</string>
+    <string name="title_activity_chanepass">암호 변경</string>
+    <!--// create job-->
+    <string name="st_location">위치</string>
+    <string name="st_txtluong">급여</string>
+    <string name="st_txttencty">업체명</string>
+    <string name="st_kinang">기능</string>
+    <string name="st_thoat">로그 아웃</string>
+    <string name="st_chon">선택</string>
+    <string name="st_ngoaingu">외국어</string>
+    <string name="st_gtNam">남</string>
+    <string name="st_gtNu">여</string>
+    <string name="st_gtAll">전체</string>
+    <string name="st_doTuoiYC">나이 입력</string>
+    <string name="st_doTuoitimkiem">원하는 나이 입력</string>
+    <string name="st_Tuoi">나이</string>
+    <string name="st_err_taocv">모든 정보를 입력해 주십시오</string>
+    <string name="st_err_anh">사진 선택</string>
+    <string name="st_uploading">업로딩…</string>
+    <string name="st_plsWait">기다리세요…</string>
+
+    <!--create profile-->
+    <string name="st_Phone">전화 번호</string>
+    <string name="st_hocvancn">수준 식 자문 능력</string>
+    <string name="st_Hoso">윤곽</string>
+    <string name="st_errHoso">이력서 생성됩니다</string>
+    <string name="st_errServer">서버에 연결할 수 없습니다</string>
+    <string name="st_errNamePass">ID or 비밀번호or 이메일 안 맞습니다</string>
+    <string name="st_create_success">생성을 성공했습니다</string>
+    <string name="st_edit_success">수정을 성공했습니다</string>
+
+
+    <!--trạng thái-->
+    <string name="st_stt_dangcho">대기중</string>
+    <string name="st_stt_dachapnhan">승인</string>
+    <string name="st_stt_datuchoi">받지 않다</string>
+
+    <string name="st_xacNhanXoaCV">이 정보를 삭제 하시겠습니까?</string>
+    <string name="st_xacXoaCV">삭제 완료</string>
+    <string name="st_xacNhanXoaHS">이 이력서를 삭제하시겠습니까?</string>
+    <string name="st_xacNhanOK">네</string>
+    <string name="st_xacNhanCancel">아니오</string>
+    <string name="st_dangkyNTV">고용 희망자</string>
+    <string name="st_dangkyNTD">채용사</string>
+    <string name="st_dangky">등록</string>
+
+
+    <!--home user-->
+    <string name="st_qlcv">이력서 관리</string>
+    <string name="st_timkiem">검색</string>
+    <string name="st_dangtinvieclam">직업  등록하기</string>
+    <string name="st_qlHoSo">Job관리</string>
+    <string name="st_qlVieclam">직업 관리</string>
+    <string name="st_hsDaLuu">저장한 이력서</string>
+    <string name="st_cvDaUngTuyen">지원한 직업-</string>
+    <string name="st_cvDaLuu">저장된 직업</string>
+    <string name="st_ycDangXuat">Log out 하시겠습니까?</string>
+    <string name="st_ycThoat">앱을 정지하겠습니까?</string>
+    <string name="st_quenmk">보내기</string>
+    <string name="st_loiKXD">오류</string>
+    <string name="st_pemissonCamera">카메라를 사용하기 위해서는 승인을 하셔야 됩니다</string>
+    <string name="st_kinhnghiem">경력</string>
+    <string name="st_nam">년</string>
+
+    <!--login-->
+    <string name="st_hayNhapUSERPASS">계정 정보 혹은 암호를 입력해 주세요</string>
+    <string name="st_sendagain">다시 보내기</string>
+    <string name="st_erroDodaiUSERPASS">계정 정보를 확인해 주세요</string>
+    <string name="st_saiTKMK">ID 혹은 암호가 틀렸습니다</string>
+    <string name="st_nhapTKDK">모든 정보를 입력해 주십시오</string>
+    <string name="st_loiMK">암호를 확인해 주세요</string>
+    <string name="st_DKSuccess">등록 성공</string>
+    <string name="st_CHANGE">변경</string>
+    <string name="st_CHANGE_PASSWORD">암호 변경</string>
+
+    <!--chi tiết công việc-->
+    <string name="st_motacv">직업 설명</string>
+    <string name="st_yeucaucv">Job 요구</string>
+    <string name="st_dotuoiCV">나이 입력</string>
+    <string name="st_ycngoainguCV">외국어 요구:</string>
+    <string name="st_yckynangCV">기능 요구:</string>
+    <string name="st_yckhacCV">기타 요구 사항</string>
+    <string name="st_ungtuyenCV">지원하기</string>
+    <string name="st_goidienCV">전화 문의</string>
+    <string name="st_chiaseCV">공유</string>
+    <string name="st_luuCV">저장</string>
+
+    <!--content detail profile-->
+    <string name="st_hs">이력서</string>
+    <string name="st_sdt">전화번호</string>
+    <string name="st_quequan">국가</string>
+    <string name="st_diachict">주소</string>
+    <string name="st_mucluongct">희망 급여</string>
+    <string name="st_hocvanct">문학</string>
+    <string name="st_ngonnguct">언어</string>
+    <string name="st_thongtinct">추가 정보</string>
+    <string name="st_tuchoict">거절</string>
+    <string name="st_chapnhanct">승인</string>
+    <string name="st_guict">보내기</string>
+    <string name="st_goict">전화걸기</string>
+    <string name="st_gioitinhct">성별</string>
+
+    <!--fragment first tab-->
+    <string name="st_chuacoHS">지원한 이력서가 없습니다</string>
+
+    <!--login-->
+    <string name="st_hintEmail">이메일</string>
+    <string name="st_hintPass">암호</string>
+    <string name="st_btnLogin">로그인</string>
+    <string name="st_txtDangky">ID가 없습니까? 지금 바로 등록하세요</string>
+
+    <!--đăng ký nhà tuyển dụng-->
+    <string name="st_hintTenCT">업체명 </string>
+    <string name="st_hintRepeatPass">암호 재입력</string>
+    <string name="st_btnTaoTK">계정 생성</string>
+    <string name="st_txtDangNhap">ID가 있습니까? 지금 바로 로그인 하세요</string>
+
+    <string name="st_about_job">Content</string>
+    <string name="st_about_company">지원자</string>
+    <!--đăng ký người tìm việc-->
+    <string name="st_tenNTV">이름</string>
+
+    <!--dialog -->
+    <string name="st_btnNTV">취직자</string>
+    <string name="st_btnNTD">지원자</string>
+
+    <!--dialog mức lương-->
+    <string name="st_tu">부터</string>
+    <string name="st_den">To</string>
+
+    <!--edit_profile-->
+    <string name="st_tenProf">성함</string>
+    <string name="st_btnChonNgaySinh">생년월일 선택</string>
+    <string name="st_ttLienHe">연락처</string>
+    <string name="st_ttKinhNghiem">경력(optional)</string>
+
+
+
+    <string name="st_ttCongViec">희망하는 직업</string>
+    <string name="st_ttnnAdd">(+) 버튼을 눌러서 추가해 주십시오</string>
+    <string name="st_ttknAdd">(+) 버튼을 눌러서 추가해 주십시오</string>
+    <string name="st_btnXoa">삭제</string>
+    <string name="st_cteatejob">직업 생성</string>
+
+    <string name="st_btnEdit">수정</string>
+    <string name="st_editjob">직업 정보 수정</string>
+    <string name="action_logout">로그 아웃</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">서비스 정책</string>
+    <string name="st_reg">You need to log in to apply</string>
+    <string name="st_skill">경험 수준</string>
+    <string name="title_activity_edit_job">EditJobActivity</string>
+    <string name="st_hintTotNghiep">졸업 학교</string>
+    <string name="st_hintChuyenNganh">전공</string>
+    <string name="st_hintThanhTuu">성적</string>
+    <string name="st_hintNamKN">경력년도</string>
+    <string name="st_hintChucDanh">직급</string>
+    <string name="st_hintMoTaCV">직업 설명</string>
+    <string name="st_hintTenCTMM">업체 희망사항</string>
+    <string name="st_hintTenCVMM">희망 직업명</string>
+    <string name="st_hintViTriMM">희망 직책</string>
+    <string name="st_diachi">주소</string>
+    <string name="st_phone">전화 번호</string>
+    <string name="st_workplace">희망 근무지</string>
+
+
+    <!--TẠO CÔNG VIỆC-->
+    <string name="st_txtTTCT">업체 정보</string>
+    <string name="st_txtChonLogo">이미지를 선택해 주십시오</string>
+    <string name="st_txtQuyMo">규모</string>
+    <string name="st_hintNganhNghe">직업</string>
+    <string name="st_txtGTCT">업체 소개</string>
+    <string name="st_txtTTCV">직업 정보</string>
+    <string name="st_hintTenCV">직업명</string>
+    <string name="st_hintMotaCV">직업 설명</string>
+    <string name="st_hintSoLuongTuyen">채용수</string>
+    <string name="st_hintHanNop">이력서 제출 기간</string>
+    <string name="st_hintYeuCau">요구사항</string>
+    <string name="st_hintYeuCauTuoi">연세</string>
+    <string name="st_gtKhac">기타</string>
+    <string name="st_gt">성별</string>
+    <string name="st_ycKhac">기타 요구 사항</string>
+    <string name="st_phucloi">근무 환경</string>
+    <string name="st_btnNhapLai">다시 입력해주세요</string>
+    <string name="st_btnDangTin">소식 올리기</string>
+    \\
+    <!--QUẢN LÝ CÔNG VIỆC-->
+    <string name="st_congViec">커리어</string>
+    <string name="st_slUngTuyen">지원자 수</string>
+    <string name="st_ttQuangCao">작업에 대한 어떤 소식 만들려면 아래 입력하지.</string>
+    <string name="st_timkiemNangCao">조건 검색</string>
+    <string name="st_chuaUngTuyenCV">지원한 직업 정보가 없습니다</string>
+    <string name="st_chuaCoCV">이력서가 없습니다. + 버튼을 눌러서 이력서를 만들어 주세요.</string>
+    <string name="st_btnTaoHS">이력서 생성</string>
+    <string name="st_chuaHSLuu">저장된 이력서가 없습니다</string>
+    <string name="st_timUngVien">지원자 검색</string>
+    <string name="st_hocVanTitle">문학</string>
+    <string name="st_taoProfile">생성</string>
+    <string name="st_dangTinQC">작업을 게시</string>
+    <string name="showmess_sus">성공적으로 저장되었습니다.</string>
+
+    // chi tiết hồ sơ
+    <string name="st_hsDaChon">선택한 이력서</string>
+    <string name="st_tuChoiHS">거절</string>
+    <string name="st_xoaHS">이 이력서를 삭제하시겠습니까?</string>
+
+    <string name="error_invalid_email">이메일을 확인해 주세요</string>
+    <string name="error_invalid_password">암호의 길이가 짧습니다</string>
+    <string name="error_incorrect_password">비밀번호가 맞지 않습니다</string>
+    <string name="error_field_required">이 내용을 꼭 봐주세요</string>
+    <string name="error_invalid_ten">이름이 너무 짧습니다</string>
+    <string name="error_invalid_tenCY">업체명을 확인해 주세요</string>
+    <string name="error_invalid_phone">전화번호를 확인해 주세요</string>
+    <string name="st_changepass">암호 변경</string>
+    <string name="st_oldpass">현재 암호</string>
+    <string name="st_newpass">새로운 암호</string>
+    <string name="st_renewpass">새로운 암호를 입력하세요</string>
+    <string name="st_endDate">마감일</string>
+    <string name="st_xacNhan">확인</string>
+    <string name="st_maKHL">코드를 확인해 주세요</string>
+    <string name="st_maXN_khongdung">코드를 확인해 주세요</string>
+    <string name="st_quenmk_ten">암호를 잊으셨나요?</string>
+    <string name="st_ktTimKiem">검색 결과</string>
+    <string name="st_nhapMaXN">확인 코드를 입력</string>
+    <string name="st_btnthem">몹시 떠들어 대다</string>
+    <string name="st_quenmkTK">비밀번호를 잊으 셨나요</string>
+
+
+    <!--25/8/2016-->
+    <string name="action_favorite">저장</string>
+    <string name="action_share">공유하기</string>
+    <string name="st_about">About</string>
+    <string name="st_exit">정말 종료하시겠습니까?</string>
+    <string name="st_try_again">다시 시도하기</string>
+    <string name="server_unreachable">서버에 연결할 수 없습니까? 다시 시도해보세요</string>
+
+    <string name="st_andress">주소</string>
+
+    <string name="st_info">업체 정보</string>
+    <string name="st_age">나이</string>
+    <string name="st_avatar">이미지</string>
+    <string name="st_changeSuccess">암호를 성공적으로 변경했습니다</string>
+    <string name="st_changeError">암호를 확인해 주세요</string>
+    <string name="st_changeOldError">암호를 확인해 주세요</string>
+    <string name="st_selectLocation">위치</string>
+    <string name="copy_right">Copyrights © %1$d</string>
+    <string name="st_cancel">해제</string>
+    <string name="st_ttud">어플리케이션 정보</string>
+    <string name="st_chuacoTK"><u>지금 등록하세요!</u></string>
+    <string name="about_app">Quick Job은 여러분들께 일을 신속하고 정확하고 편하게 일을 찾기를 도와드리는 앱입니다. 마음에 들기를 바랍니다. 질문이 있으면 연락주시길 바랍니다</string>
+    <string name="fabcreate">구인 정보 등록(다이아몬드)</string>
+    <string name="fabcreatefast">구인 정보 등록(일반)</string>
+    <string name="confirm_delete">로그아웃</string>
+    <string name="delete_detail">로그 아웃 하시겠습니까?</string>
+    <string name="btn_yes">예</string>
+    <string name="btn_no">아니오</string>
+    <string name="titlenotification">QuickJob</string>
+    <string name="textnotification">" 지원 완료 "</string>
+    <string name="st_notrequest">요구없음</string>
+    <string name="st_not_apply">지원자가 없다</string>
+    <string name="st_apply">지원자 수:</string>
+    <string name="confirm_del">지우기</string>
+    <string name="ST_notification">여기에 클릭해서 알림을 on-off합니다</string>
+    <string name="ST_info">여기에 클릭해서 정보를 봅니다</string>
+    <string name="ST_password">여기 클릭하여 비밀번호를 변경합니다</string>
+    <string name="ST_app">여기에 클릭해서 앱정보를 봅니다</string>
+    <string name="ST_exit">여기에 클릭해서 앱을 종료합니다</string>
+    <string name="fab_premium">구인 정보 등록(프리미엄)</string>
+    <string name="register_adv">연락처: 01665849134</string>
+    <string name="add_messager">메시지를 입력하세요</string>
+    <string name="yesterday">어제</string>
+    <string name="anhour">1시간 전</string>
+    <string name="anminute">1분 전</string>
+    <string name="justnow">방금</string>
+    <string name="minutesago">몇분 전</string>
+    <string name="hourago">몇시간 전</string>
+    <string name="daysago">몇일 전</string>
+    <string-array name="languages">
+        <item>영어</item>
+        <item>한국어</item>
+        <item>베트남어</item>
+    </string-array>
+    <string name="ST_language">여기에 클릭해서 언어를 변경합니다</string>
+    <string name="language">언어 변경</string>
+    <string name="selectlanguage">언어 선택</string>
+    <string name="selectjob_share">직업 선택</string>
+    <string name="shareQJ_user">QuickJob 사용자와 공유</string>
+    <string name="shareDifference_user">다른 앱과 공유</string>
+    <string name="saved_profile">저장됨</string>
+    <string name="st_account_tontai">이메일이 이미 존재합니다</string>
+    <string name="st_writing">입력...</string>
+    <string name="nodata">데이터를 찾지 못했습니다</string>
+    <string name="no_data">데이터가 없습니다</string>
+    <string name="btnChat">잡담</string>
+    <string name="btnCall">전화</string>
+    //============qj      find ===========//
+    <!--<string name="app_name">QuickJob Find</string>-->
+
+    <!--<string name="slide_1_title_search">빠른 검색</string>-->
+    <!--<string name="slide_2_tile_saving_time">최대한 절약</string>-->
+    <!--<string name="slide_3_title_notification">인스턴트 메시지</string>-->
+    <!--<string name="slide_4_title_start">지금 시작할까요? </string>-->
+    <!--<string name="slide_1_african_story_books_subtitle">직업과 후보자를 요구에 따라 정확하게 찾아주다</string>-->
+    <!--<string name="slide_2_volunteer_professionals_subtitle">사용자의 시간과 돈을 절약해주다</string>-->
+    <!--<string name="slide_3_download_and_go_subtitle">잘 맞는 직업이 있으면 알려주고 계속 업데이트해요</string>-->
+    <!--<string name="slide_4_different_languages_subtitle">경험해보고 마음에 드는 일을 찾아보세요</string>-->
+    <string name="errorfindjob">죄송합니다. 일을 찾을 수 없습니다.</string>
+    <!--<string name="tutorial_done">시작</string>-->
+    <!--<string name="tutorial_skip">버킷</string>-->
+
+    <string name="_bb">Barista &amp; Bartender</string>
+    <string name="_bw">Beauty &amp; Wellness</string>
+    <string name="_ch">Careworkers &amp; Health</string>
+    <string name="_cc">Chef &amp; Cook</string>
+    <string name="_c">Cleaning</string>
+    <string name="_ep">Events &amp; Promotion</string>
+    <string name="_dc">Driver &amp; Courier</string>
+    <string name="_cs">Construction</string>
+    <string name="_e">Education</string>
+    <string name="_kp">Kitchen porter</string>
+    <string name="_oa">Ofice &amp; Admin</string>
+    <string name="_r">Retail</string>
+    <string name="_sm">Sales &amp; Marketing</string>
+    <string name="_ww">Waiter &amp; Waitress</string>
+    <string name="_w">Warehouse</string>
+    <string name="_other">Other</string>
+
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="tab_ProfileManger">CV</string>
+    <string name="nav_notification">통보</string>
+    <string name="jobapply">적용됨</string>
+    <string name="jobsave">저장된</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <!--<string-array name="nav_item_activity_titles">-->
+        <!--<item>홈페이지</item>-->
+        <!--<item>조치</item>-->
+        <!--<item>잡담</item>-->
+        <!--<item>윤곽</item>-->
+        <!--<item>설정</item>-->
+    <!--</string-array>-->
+    <string name="st_turnonGPS">GPS 기능을 키다</string>
+    <string name="st_deleteconversation">이 대화 내용을 삭제하고 싶습니까? </string>
+    <!--job-->
+    <string name="toast_apply">성공적으로 신청</string>
+    <string name="toast_alreadyapply">이미 신청하다</string>
+    <string name="toast_alreadysaved">이미 저장되었습니다.</string>
+    <string name="toast_notfind">죄송합니다. 일을 찾을 수 없습니다.</string>
+    <!--<string name="activity_title_about_us">About Us</string>-->
+    <!--<string name="activity_title_privacy_policy">정책</string>-->
+    <!--<string name="action_logout">로그 아웃</string>-->
+    <string name="st_xuatTK">검색 결과</string>
+    <string name="st_createHS">프로필 만들기</string>
+    <string name="st_editHS">프로필 수정</string>
+    <string name="toast_delete">성공을 제거하십시오</string>
+    <string name="toast_save">저장 완성</string>
+    <string name="st_qjfind">당신은 모집입니다! 여기를 클릭하십시오.</string>
+    <string name="st_qjhire">직업을 찾고 싶다! 여기를 클릭하십시오.</string>
+    <!--<string name="next">다음</string>-->
+    <!--<string name="skip">넘기기</string>-->
+    <!--<string name="start">시작</string>-->
+    <!--<string name="slide_1_title">검색</string>-->
+    <!--<string name="slide_1_desc">직업과 후보자를 요구에 따라 정확하게 찾아주다</string>-->
+    <!--<string name="slide_2_title">절약</string>-->
+    <!--<string name="slide_2_desc">시간과 돈을 절약!</string>-->
+    <!--<string name="slide_3_title">알림</string>-->
+    <!--<string name="slide_3_desc">매일 직업 알림 수신!</string>-->
+    <!--<string name="slide_4_title">시작</string>-->
+    <!--<string name="slide_4_desc">QuickJob 앱을 사용하신 것을 환영합니다!</string>-->
+    <!--<string name="st_timkiem">수색</string>-->
+    <!--<string name="st_btnLogin">로그인</string>-->
+    <!--<string name="st_dangky">가입하기</string>-->
+    <!--<string name="st_quenmk">보내다</string>-->
+    <string name="st_mess_notcv_needcreate">프로필이 해달라고, 만들려면 여기를 클릭하십시오.</string>
+    <!--error-->
+    <!--<string name="st_errServer">서버에 연결할 수 없습니다</string>-->
+    <!--<string name="st_loiMK">비밀번호가 일치하지 않습니다</string>-->
+    <string name="st_accountUsed">이미 사용중인 계정</string>
+
+    <!--login-->
+    <!--<string name="st_hintEmail">이메일</string>-->
+    <!--<string name="st_hintPass">암호</string>-->
+    <string name="st_forgotPass"><u>비밀번호 찾기</u></string>
+    <!--<string name="st_txtDangNhap">회원이 아니신가요? 회원가입 하기</string>-->
+    <!--<string name="st_renewpass">비밀번호 확인</string>-->
+    <!--<string name="st_nhapMaXN">인증번호 입력</string>-->
+    <!--<string name="st_sendagain">재전송</string>-->
+    <!--<string name="st_thoat">나가기</string>-->
+    <!--<string name="st_chon">선택</string>-->
+    <!--<string name="st_maXN_khongdung">일치하지 않는 코드입니다</string>-->
+    <!--<string name="st_CHANGE_PASSWORD">암호 변경</string>-->
+    <!--<string name="st_newpass">새로운 암호</string>-->
+    <!--<string name="st_xacNhan">승인</string>-->
+    <!--<string name="st_err_taocv">모든 정보를 입력하세요</string>-->
+
+    <!--error edittex-->
+    <!--<string name="error_invalid_email">이메일을 확인해 주세요</string>-->
+    <!--<string name="error_invalid_password">암호는 X 자 이상입니다</string>-->
+    <!--<string name="error_field_required">이 내용을 놓칠 수가 없다</string>-->
+    <!--<string name="error_invalid_tenCY">업체명을 확인해주세요</string>-->
+    <!--<string name="title_activity_editaccount">계정 정보 수정</string>-->
+    <!--<string name="title_activity_information">계정 정보 </string>-->
+    <!--<string name="title_activity_chanepass">암호 변경</string>-->
+    <!--<string name="st_chuaUngTuyenCV">응시한 직업이 없습니다.</string>-->
+    <!--<string name="st_chuaSaveCV">직업이 저장 되지 않았습니다</string>-->
+    <!--<string name="addProfile">이력서 선택</string>-->
+    <!--<string name="st_loiKXD">에러</string>-->
+    <!--<string name="st_pemissonCamera">전화를 사용하기 위해서는</string>-->
+    <!--<string name="action_share">공유하기</string>-->
+
+    <!--trạng thái-->
+    <!--<string name="st_stt_dangcho">대기중</string>-->
+    <!--<string name="st_stt_dachapnhan">합격</string>-->
+    <!--<string name="st_stt_datuchoi">거절</string>-->
+
+    <!--TẠO CÔNG VIỆC-->
+    <!--<string name="st_txtGTCT">업체 소개</string>-->
+    <!--<string name="st_hintYeuCau">요청</string>-->
+    <!--<string name="st_phucloi">복지</string>-->
+
+    <!--<string name="st_hintTenCT">업체명</string>-->
+    <!--<string name="st_diachict">주소</string>-->
+    <!--<string name="st_gtNam">남</string>-->
+    <!--<string name="st_gtNu">여</string>-->
+    <!--<string name="st_ngoaingu">언어</string>-->
+    <!--<string name="st_kinang">기술</string>-->
+    <!--dialog mức lương-->
+    <!--<string name="st_err_anh">사진 선택</string>-->
+    <!--<string name="st_uploading">로딩중…</string>-->
+    <!--<string name="st_plsWait">잠시만 기다려 주세요…</string>-->
+    <!--<string name="st_errNamePass">계정 정보가 일치하지 않습니다</string>-->
+
+    <!--edit_profile-->
+    <!--<string name="st_tenProf">이름</string>-->
+    <string name="st_hinttenProf">이름 입력</string>
+    <string name="st_hintkynang">기술 입력</string>
+    <string name="st_tvNgaysinh">생일</string>
+    <!--<string name="st_btnChonNgaySinh">생년월일</string>-->
+    <!--<string name="st_ttLienHe">연락처 정보</string>-->
+    <!--<string name="st_ttKinhNghiem">경력</string>-->
+    <!--<string name="st_ttCongViec">원하는 직업</string>-->
+    <!--<string name="st_ttnnAdd">외국어를 입력하지 않았습니다. 추가(+) 버튼을 눌러주세요</string>-->
+    <!--<string name="st_ttknAdd">기술을 입력하지 않았습니다. 추가(+) 버튼을 눌러주세요</string>-->
+    <!--<string name="st_btnXoa">삭제</string>-->
+    <!--<string name="st_btnEdit">수정</string>-->
+    <!--<string name="st_hintTotNghiep">출신 학교</string>-->
+    <!--<string name="st_hintChuyenNganh">학과</string>-->
+    <!--<string name="st_hintThanhTuu">대외 활동</string>-->
+    <!--<string name="st_hintNamKN">경력 년수</string>-->
+    <!--<string name="st_hintChucDanh">제목</string>-->
+    <!--<string name="st_hintMoTaCV">직업 소개</string>-->
+    <!--<string name="st_hintTenCVMM">원하는 직업 이름</string>-->
+    <!--<string name="st_hintViTriMM">원하는 포지션</string>-->
+    <string name="st_gthieu">슬로건</string>
+
+    <!--content detail profile-->
+    <!--<string name="st_sdt">핸드폰 번호</string>-->
+    <!--<string name="st_quequan">국가</string>-->
+    <!--<string name="st_gioitinhct">성별</string>-->
+    <!--<string name="st_hocVanTitle">지식</string>-->
+    <!--<string name="st_edit_success">수정 성공</string>-->
+    <!--<string name="st_apply">지원하기</string>-->
+    <!--chi tiết công việc-->
+    <!--<string name="st_motacv">원하는 직업</string>-->
+    <!--<string name="st_dotuoiCV">나이</string>-->
+    <!--<string name="st_goidienCV">전화</string>-->
+    <!--<string name="st_luuCV">저장</string>-->
+
+    <!--home user-->
+
+    <!--<string name="st_btnthem">프로필 생성</string>-->
+    <!--<string name="st_chuaCoCV">프로필이 없습니다. 프로필 생성을 눌러주세요</string>-->
+    <!--<string name="st_skill">경력 년수</string>-->
+    <!--<string name="st_xacNhanOK">예</string>-->
+    <!--<string name="st_errHoso">프로필 생성</string>-->
+    <!--<string name="st_create_success">생성 성공</string>-->
+    <string name="facebook_app_id">451320801890448</string>
+    <!--<string name="st_about_job">컨텐츠</string>-->
+    <!--<string name="st_about_company">고용 희망자</string>-->
+    <!--<string name="st_location">위치</string>-->
+    <!--<string name="about_app">Quick Job은 여러분들께 일을 신속하고 정확하고 편하게 일을 찾기를 도와드리는 앱입니다. 마음에 들기를 바랍니다. 질문이 있으면 연락주시길 바랍니다</string>-->
+
+    <!--<string name="copy_right">Copyrights © %1$d</string>-->
+    <!--<string name="st_xacNhanCancel">아니오</string>-->
+    <!--<string name="st_chuacoTK"><u>지금 계정 만들기</u></string>-->
+
+    //26/10/2016
+    <!--<string name="st_oldpass">현재 비밀번호</string>-->
+    <!--<string name="st_info">개인 정보</string>-->
+    <!--<string name="st_age">나이</string>-->
+    <!--<string name="st_changeSuccess">비밀 번호 변경 성공</string>-->
+    <!--<string name="st_changeError">다시 시도해주세요.</string>-->
+    <!--<string name="st_changeOldError">이전 암호의 잘못</string>-->
+    <!--<string name="st_selectLocation">지역 선택</string>-->
+    <!--<string name="st_cancel">취소</string>-->
+    <string name="st_gallery">사진첩</string>
+    <string name="st_camera">카메라</string>
+    <string name="title_activity_need_job">가까운 구직 정보</string>
+    <string name="title_activity_information__company">회사 정보</string>
+    <string name="title_activity_more_new_">새로운 구직 정보</string>
+    <string name="toprecruiter">탑 리쿠르터</string>
+    <string name="st_title_dscv_cty">직업 list</string>
+    <!--<string name="st_ttud">제품 정보</string>-->
+
+    <string name="st_notifi">없음 알림 없음</string>
+    <string name="title_activity_near_maps">지도</string>
+    <!--<string name="yesterday">어제</string>-->
+    <!--<string name="anhour">1시간 전</string>-->
+    <!--<string name="anminute">1분 전</string>-->
+    <!--<string name="justnow">방금</string>-->
+    <!--<string name="minutesago">몇분 전</string>-->
+    <!--<string name="hourago">몇시간 전</string>-->
+    <!--<string name="daysago">몇일 전</string>-->
+    <string name="selecte">선택</string>
+    <string name="of">에</string>
+    <string name="job">직업들</string>
+    <string name="title_activity_viduactivity">viduactivity</string>
+    <!--job-->
+    <string name="job1">Unskilled worker</string>
+    <string name="job2">Collaborator</string>
+    <string name="job3">Students do more</string>
+    <string name="job4">Just have graduated</string>
+    <string name="job5">Defense/Guard</string>
+    <string name="job6">Hotel/Restaurant</string>
+    <string name="job7">Servant/Maid</string>
+    <string name="job8">Advertiser/Marketing</string>
+    <string name="job9">Driver/Delivery</string>
+    <string name="job10">Part-time job</string>
+    <string name="job11">Urgent Hiring</string>
+    <string name="job12">Pharmacist</string>
+    <string name="job13">pharmaceutical</string>
+    <string name="job14">Maintenance</string>
+    <string name="job15">Shop assistant</string>
+    <string name="job16">Insurance</string>
+    <string name="job17">Real estate</string>
+    <string name="job18">Translater </string>
+    <string name="job19">Stock</string>
+    <string name="job20">High technology</string>
+    <string name="job21">Hardware/network IT</string>
+    <string name="job22">Internet/Online Media</string>
+    <string name="job23">Software IT</string>
+    <string name="job24">Mechanical engineering</string>
+    <string name="job25">Textile(footwear)</string>
+    <string name="job26">Customer service</string>
+    <string name="job27">Aviation/ travel</string>
+    <string name="job28">Electronics industry</string>
+    <string name="job29">Education</string>
+    <string name="job30">Accountancy</string>
+    <string name="job31">Accountant</string>
+    <string name="job32">Medical profession</string>
+    <string name="job33">Architecture</string>
+    <string name="job34">Banking</string>
+    <string name="job35">Act/design</string>
+    <string name="job36">Human resources</string>
+    <string name="job37">Agriculture / forestry</string>
+    <string name="job38">Legal profession</string>
+    <string name="job39">Non-governmental</string>
+    <string name="job40">Manager</string>
+    <string name="job41">Advertising</string>
+    <string name="job42">Manufacturing</string>
+    <string name="job43">Parttime</string>
+    <string name="job44">Financial/investment</string>
+    <string name="job45">Fashion</string>
+    <string name="job46">The dinks industry</string>
+    <string name="job47">Television</string>
+    <string name="job48">Marketing</string>
+    <string name="job49">Consulting industry</string>
+    <string name="job50">Transport</string>
+    <string name="job51">Procurement</string>
+    <string name="job52">Telecommunications</string>
+    <string name="job53">The construction industry</string>
+    <string name="job54">Export import industry</string>
+    <string name="job55">Automatics/oto</string>
+    <string name="acceptcv">\"이력서 합격!\"</string>
+    <string name="refusecv">지원에서 떨어졌습니다</string>
+    <string name="foundjob">당신을 위한 직업!</string>
+    <string name="QJNotification">QuickJob 통보</string>
+    <string name="st_all_andress">모든 위치</string>
+    <string name="st_findjob">발견 된 작업 의 수</string>
+    <string name="st_more">더보기</string>
+    <string name="st_morePer">톱 작업</string>
+    <!--<string name="st_saiTKMK">잘못된 계정 또는 비밀번호</string>-->
+    <string name="tthoso">프로필 정보</string>
+    <string name="ngaydang">게시한 날짜</string>
+
+    <string name="st_err_internet">다시 시도</string>
+    <string name="st_err_internet_row">와이파이 연결을 확인해주세요.</string>
+
+    <string name="st_err_gps">GPS 환경설정</string>
+    <string name="st_err_gps_messeger">GPS 기능을 키면 가장 가까운 일을 찾아 드릴 겁니다</string>
+    <!--<string name="ST_notification">(여기에 클릭해서 알림을 on-off합니다)</string>-->
+    <!--<string name="ST_info"> (여기에 클릭해서 정보를 봅니다)</string>-->
+    <string name="ST_pass">(여기 클릭하여 비밀번호를 변경합니다)</string>
+    <string name="ST_logout">(여기에 클릭해서 앱을 종료합니다)</string>
+    <string name="ST_appinfo">(여기에 클릭해서 앱정보를 봅니다)</string>
+    <!--<string name="add_messager">메시지를 입력하세요...</string>-->
+    <!--<string-array name="languages">-->
+        <!--<item>영어</item>-->
+        <!--<item>한국어</item>-->
+        <!--<item>베트남어</item>-->
+    <!--</string-array>-->
+    <!--<string name="selectlanguage">언어 선택</string>-->
+    <!--<string name="language">언어 변경</string>-->
+    <!--<string name="ST_language">언어를 변경하려면 여기를 클릭하십시오</string>-->
+    <string name="removed">has been removed by</string>
+    <string name="changed">has been edited by</string>
+    <string name="detail_desc">Detail Description</string>
+    <string name="report">신고</string>
+    <string name="report_success">신고 성공</string>
+    <string name="report_failed">신고 실패</string>
+    <string name="report_existed">이  신고는 이미 있습닏다</string>
+    <!--<string name="st_writing">입력…</string>-->
+    <!--<string name="no_data">데이터 없음</string>-->
+    <string name="changelocation">위치 변경</string>
+    <string name="report_problem">문제를보고하십시오</string>
+    <string name="title_activity_chatting">Chat</string>
+    <string name="st_xoaChat">Are you sure to delete this chat?</string>
+    <string name="st_done">Done</string>
+    <string name="st_deleteprofile">Do you really want to delete the Profile?</string>
+    <string name="st_chuacoCV">You don’t have job</string>
+    <string name="st_chuaSaveCV">Dont have any saved job</string>
+</resources>

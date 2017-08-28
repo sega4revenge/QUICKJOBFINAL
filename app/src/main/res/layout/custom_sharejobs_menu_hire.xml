@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:gravity="left|center"
+        android:layout_margin="5dp"
+        android:id="@+id/lin_shareQJ"
+        android:paddingLeft="10dp"
+       >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/shareQJ_user"
+            android:layout_weight="70"
+            android:textSize="13dp"
+            android:textColor="@color/black"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:visibility="gone"
+           >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="6dp"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+              />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:gravity="left|center"
+        android:layout_margin="5dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/lin_sharedifference">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/shareDifference_user"
+            android:layout_weight="70"
+            android:textSize="13dp"
+            android:textColor="@color/black"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="6dp"/>
+            <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="6dp"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="6dp"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+               />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

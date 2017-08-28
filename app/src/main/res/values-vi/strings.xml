@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Việc làm - QuickJob</string>
+
+    <string name="slide_1_title_search">Tìm kiếm nhanh chóng</string>
+    <string name="slide_2_tile_saving_time">Tiết kiệm tối đa</string>
+    <string name="slide_3_title_notification">Thông báo tức thời</string>
+    <string name="slide_4_title_start">Bắt đầu ngay</string>
+    <string name="slide_1_african_story_books_subtitle">Tìm kiếm chính xác công việc và các ứng viên theo yêu cầu.</string>
+    <string name="slide_2_volunteer_professionals_subtitle">Tiết kiệm thời gian và tiền bạc cho người sử dụng.</string>
+    <string name="slide_3_download_and_go_subtitle">Thông báo khi có công việc phù hợp, liên tục cập nhật.</string>
+    <string name="slide_4_different_languages_subtitle">Hãy cùng trải nghiệm và tìm được công việc yêu thích cho bạn</string>
+    <string name="errorfindjob">Xin lỗi, không tìm thấy công việc ở</string>
+
+    <string name="tutorial_done">BẮT ĐẦU</string>
+    <string name="tutorial_skip">BỎ QUA</string>
+
+    <string name="_bb">Pha chế</string>
+    <string name="_bw">Làm đẹp/Spa</string>
+    <string name="_ch">Nhân viên Chăm sóc</string>
+    <string name="_cc">Đầu bếp</string>
+    <string name="_c">Dọn vệ sinh</string>
+    <string name="_ep">Sự kiện/Khuyến mãi</string>
+    <string name="_cs">Xây dựng</string>
+    <string name="_dc">Tài xế &amp; Chuyển phát nhanh</string>
+    <string name="_e">Giáo dục</string>
+    <string name="_kp">Nhân viên Bếp</string>
+    <string name="_oa">Văn phòng/Quản trị</string>
+    <string name="_r">Bán lẻ</string>
+
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="tab_ProfileManger">hồ sơ</string>
+    <string name="nav_notification">Thông báo</string>
+    <string name="title_activity_need_job">Gần đây</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Trang chủ</item>
+        <item>Quản lý</item>
+        <item>Chat</item>
+        <item>Hồ sơ</item>
+        <item>Cài đặt</item>
+    </string-array>
+    <string name="st_apply">ứng tuyển</string>
+    <string name="st_morePer">TOP JOB IN</string>
+    <string name="jobapply">Công việc đã ứng tuyển</string>
+    <string name="jobsave">Công việc đã lưu</string>
+    <string name="activity_title_about_us">Thông tin</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="title_activity_more_new_">Mới nhất</string>
+    <string name="action_logout">Đăng xuất</string>
+    <string name="st_xuatTK">Kết quả</string>
+    <string name="st_createHS">Tạo hồ sơ</string>
+    <string name="st_editHS">Chỉnh sửa hồ sơ</string>
+    <string name="toast_delete">Xóa thành công</string>
+    <string name="toast_save">Lưu thành công</string>
+    <string name="toast_apply">Ứng tuyển thành công</string>
+    <string name="toast_alreadyapply">Công việc này đã được ứng tuyển</string>
+    <string name="toast_alreadysaved">Công việc này đã được lưu</string>
+    <string name="next">Tiếp</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="start">Bắt đầu</string>
+    <string name="slide_1_title">Tìm kiếm</string>
+    <string name="slide_1_desc">Tìm kiếm chính xác công việc và các ứng viên theo yêu cầu</string>
+    <string name="slide_2_title">Tiết kiệm</string>
+    <string name="slide_2_desc">Tiết kiệm thời gian và tiền bạc</string>
+    <string name="slide_3_title">Thông báo</string>
+    <string name="slide_3_desc">Nhận thông báo việc làm hằng ngày</string>
+    <string name="slide_4_title">Bắt đầu</string>
+    <string name="slide_4_desc">Chào mừng bạn đến với ứng dụng QuickJob</string>
+    <string name="toast_notfind">rấ tiết,không tìm thấy công việc nào</string>
+    <string name="st_timkiem">Tìm kiếm</string>
+    <string name="st_btnLogin">Đăng nhập</string>
+    <string name="st_dangky">Đăng ký</string>
+    <string name="st_quenmk">Gửi</string>
+
+    <!--error-->
+    <string name="st_errServer">Không thể kết nối với máy chủ</string>
+    <string name="st_loiMK">Mật khẩu không trùng khớp</string>
+    <string name="st_saiTKMK">Sai tài khoản hoặc mật khẩu</string>
+    <string name="st_accountUsed">Tài khoản đã được sử dụng</string>
+    <string name="st_out">Bạn có thực sự muốn thoát ứng dụng không?</string>
+    <string name="st_deleteprofile">Bạn có thực sự muốn xoá hồ sơ này?</string>
+    <string name="st_deleteconversation">Bạn có muốn xóa cuộc trò chuyện này?</string>
+    <!--login-->
+    <string name="st_hintEmail">Email</string>
+    <string name="st_hintPass">Mật khẩu</string>
+    <string name="st_forgotPass"><u>quên mật khẩu?</u></string>
+    <string name="st_txtDangNhap">Đã có tài khoản? Đăng nhập ngay!</string>
+    <string name="st_renewpass">Nhập lại mật khẩu</string>
+    <string name="st_nhapMaXN">Nhập mã xác nhận</string>
+    <string name="st_sendagain">Gửi lại</string>
+    <string name="st_thoat">Thoát</string>
+    <string name="st_chon">Chọn</string>
+    <string name="st_done">Trở về</string>
+    <string name="st_maXN_khongdung">Mã xác nhận không đúng</string>
+    <string name="st_CHANGE_PASSWORD">Đổi mật khẩu</string>
+    <string name="st_newpass">Mật khẩu mới</string>
+    <string name="st_xacNhan">Xác nhận</string>
+    <string name="st_err_taocv">Hãy nhập đầy đủ thông tin rồi thử lại</string>
+    <string name="st_err_internet">Thử lại</string>
+    <string name="st_err_internet_row">Không có mạng,vui lòng kết nối wifi rồi thử lại.</string>
+    <!--error edittex-->
+    <string name="error_invalid_email">Địa chỉ email này không hợp lệ</string>
+    <string name="error_invalid_password">Mật khẩu quá ngắn (trên 9 ký tự)</string>
+    <string name="error_field_required">Không thể bỏ qua nội dung này</string>
+    <string name="error_invalid_tenCY">Tên công ty quá ngắn</string>
+
+    <string name="st_chuaUngTuyenCV">Chưa ứng tuyển công việc nào.</string>
+    <string name="st_chuaSaveCV">Chưa lưu công việc nào.</string>
+    <string name="title_activity_editaccount">Sửa thông tin tài khoản</string>
+    <string name="title_activity_information">Thông tin tài khoản</string>
+    <string name="title_activity_chanepass">Thay đổi mật khẩu.</string>
+    <string name="addProfile">Chọn hồ sơ để ứng tuyển</string>
+    <string name="st_loiKXD">Lỗi không xác định</string>
+    <string name="st_pemissonCamera">Bạn cần phải cấp phép gọi điện</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="st_location">Địa điểm</string>
+    <!--trạng thái-->
+    <string name="st_stt_dangcho">Đang chờ</string>
+    <string name="st_stt_dachapnhan">Đã chấp nhận</string>
+    <string name="st_stt_datuchoi">Đã từ chối</string>
+    <string name="st_findjob">Số công việc đã tìm thấy</string>
+    <!--TẠO CÔNG VIỆC-->
+    <string name="st_txtGTCT">Giới thiệu về công ty</string>
+    <string name="st_hintYeuCau">YÊU CẦU</string>
+    <string name="st_phucloi">Phúc lợi</string>
+
+    <string name="st_hintTenCT">Tên công ty</string>
+    <string name="st_diachict">Địa chỉ</string>
+    <string name="st_gtNam">Nam</string>
+    <string name="st_gtNu">Nữ</string>
+    <string name="st_ngoaingu">Ngoại ngữ</string>
+    <string name="st_kinang">Kỹ năng</string>
+    <!--dialog mức lương-->
+    <string name="st_err_anh">Hãy chọn ảnh</string>
+    <string name="st_uploading">Đang tải...</string>
+    <string name="st_plsWait">Vui lòng đợi tý...</string>
+    <string name="st_errNamePass">Tên đăng nhập hoặc mật khẩu hoặc email không hợp lệ</string>
+    <string name="st_mess_notcv_needcreate">Chưa có CV, nhấn vào đây để tạo.</string>
+    <!--edit_profile-->
+    <string name="st_tenProf">Tên</string>
+    <string name="st_hinttenProf">Nhập tên</string>
+    <string name="st_hintkynang">Nhập kỹ năng</string>
+    <string name="st_tvNgaysinh">Ngày sinh</string>
+    <string name="st_btnChonNgaySinh">Chọn</string>
+    <string name="st_ttLienHe">THÔNG TIN CÁ NHÂN</string>
+    <string name="st_ttKinhNghiem">KINH NGHIỆM (không bắt buộc)</string>
+    <string name="st_ttCongViec">CÔNG VIỆC MONG MUỐN</string>
+    <string name="st_ttnnAdd">Chưa có ngoại ngữ nào nhấn (+) để thêm.</string>
+    <string name="st_ttknAdd">Chưa có kỹ năng nào nhấn (+) để thêm.</string>
+    <string name="st_btnXoa">Xóa</string>
+    <string name="st_btnEdit">Chỉnh sửa</string>
+    <string name="st_hintTotNghiep">Tốt nghiệp trường</string>
+    <string name="st_hintChuyenNganh">Chuyên ngành</string>
+    <string name="st_hintThanhTuu">Thành tựu đạt được</string>
+    <string name="st_hintNamKN">Số năm kinh nghiệm</string>
+    <string name="st_hintChucDanh">Chức danh</string>
+    <string name="st_hintMoTaCV">Mô tả công việc</string>
+    <string name="st_hintTenCVMM">Tên công việc mong muốn</string>
+    <string name="st_hintViTriMM">Vị trí mong muốn</string>
+    <string name="st_gthieu">Giới thiệu bản thân</string>
+    <string name="st_more">Nhiều hơn với QuickJob</string>
+
+    <!--content detail profile-->
+    <string name="st_sdt">Số điện thoại</string>
+    <string name="st_quequan">Quê quán</string>
+    <string name="st_gioitinhct">Giới tính</string>
+
+    <string name="st_hocVanTitle">HỌC VẤN</string>
+    <string name="st_edit_success">Sửa thành công</string>
+
+    <!--chi tiết công việc-->
+    <string name="st_motacv">Mô tả công việc</string>
+    <string name="st_dotuoiCV">Độ tuổi</string>
+    <string name="st_goidienCV">Gọi</string>
+    <string name="st_luuCV">Lưu</string>
+    <!--home user-->
+
+    <string name="st_btnthem">Tạo</string>
+    <string name="st_chuaCoCV">Bạn chưa tạo hồ sơ (CV) nhấn vào nút "TẠO" để tạo công việc</string>
+    <string name="st_skill">Number of years of experience</string>
+    <string name="st_xacNhanOK">Có</string>
+    <string name="st_errHoso">Hồ sơ đã được tạo</string>
+    <string name="st_create_success">Tạo thành công</string>
+
+    <string name="st_about_job">Nội dung</string>
+    <string name="st_about_company">Nhà tuyển dụng</string>
+
+    <string name="about_app">Quick Job là một ứng dụng tìm việc ra đời nhằm mục đích giúp mọi người có thể tìm kiếm công việc một cách nhanh chóng, chính xác, tiện lợi. Hi vọng mọi người sẽ hài lòng về ứng dụng này. Nếu có thắc mắc gì hãy liên hệ với chúng tôi</string>
+    <string name="facebook_app_id">451320801890448</string>
+    <string name="copy_right">Copyrights © %1$d</string>
+    <string name="st_xacNhanCancel">Không</string>
+    <string name="st_chuacoTK"><u>Tạo tài khoản</u></string>
+
+
+    //26/10/2016
+    <string name="st_oldpass">Mật khẩu cũ</string>
+    <string name="st_info">Thông tin cá nhân</string>
+    <string name="st_age">Tuổi</string>
+    <string name="st_changeSuccess">Thay đổi mật khẩu thành công</string>
+    <string name="st_changeError">Mật khẩu nhập lại không trùng khớp</string>
+    <string name="st_changeOldError">Mật khẩu cũ không đúng</string>
+    <string name="st_selectLocation">Chọn địa điểm</string>
+    <string name="st_cancel">Hủy</string>
+    <string name="st_all_andress">Tất cả địa điểm</string>
+    <string name="toprecruiter">Nhà tuyển dụng hàng đầu</string>
+    <string name="st_title_dscv_cty">Danh sách công việc</string>
+    <string name="st_ttud">Thông tin ứng dụng</string>
+    <string name="st_notifi">Không có thông báo</string>
+    <string name="yesterday">hôm qua</string>
+    <string name="anhour">1 giờ trước</string>
+    <string name="anminute">1 phút trước</string>
+    <string name="justnow">bây giờ</string>
+    <string name="minutesago">phút trước</string>
+    <string name="hourago">giờ trước</string>
+    <string name="daysago">ngày trước</string>
+    <string name="selecte">Đã chọn</string>
+    <string name="of">trong</string>
+    <string name="job">Công việc</string>
+    <!--job-->
+
+    <string name="job1" >Lao động phổ thông</string>
+    <string name="job2" >Cộng tác viên</string>
+    <string name="job3" >Sinh viên làm thêm</string>
+    <string name="job4" >Thực tập</string>
+    <string name="job5" >Bảo vệ/vệ sĩ/An ninh</string>
+    <string name="job6" >Khách sạn/nhà hàng</string>
+    <string name="job7" >Phục vụ</string>
+    <string name="job8" >Tiếp thị/Quảng cáo/Marketing</string>
+    <string name="job9" >Tài xế/Lái xe</string>
+    <string name="job10" >Việc làm thêm</string>
+    <string name="job11" >Việc cần tuyển gấp</string>
+    <string name="job12" >Dược sỹ</string>
+    <string name="job13" >Trình dược viên</string>
+    <string name="job14" >Bảo trì/Sửa chửa</string>
+    <string name="job15" >Bán hàng</string>
+    <string name="job16" >Bảo hiểm</string>
+    <string name="job17" >Bất động sản</string>
+    <string name="job18" >Biên dịch viên</string>
+    <string name="job19" >Chứng khoáng</string>
+    <string name="job20" >Công nghệ cao</string>
+    <string name="job21" >IT Phần cứng/Mạng</string>
+    <string name="job22" >Internet</string>
+    <string name="job23" >IT -Phần mềm</string>
+    <string name="job24" >Cơ khí,chế tạo</string>
+    <string name="job25" >Dệt may/Da giày</string>
+    <string name="job26" >Dịch vụ khách hàng</string>
+    <string name="job27" >Hàng không/Du lịch</string>
+    <string name="job28" >Điện/Điện tử</string>
+    <string name="job29" >Giáo dục/Đào tạo</string>
+    <string name="job30" >Kế toán</string>
+    <string name="job31" >Kiểm toán</string>
+    <string name="job32" >Y tế</string>
+    <string name="job33" >Kiến trúc</string>
+    <string name="job34" >Ngân hàng</string>
+    <string name="job35" >Thiết kế</string>
+    <string name="job36" >Nhân sự</string>
+    <string name="job37" >Nông nghiệp/Lâm nghiệp</string>
+    <string name="job38" >Pháp lý</string>
+    <string name="job39" >Phi lợi nhuận</string>
+    <string name="job40" >Cấp quản lý điều hành</string>
+    <string name="job41" >Quản cáo</string>
+    <string name="job42" >Sản Xuất</string>
+    <string name="job43" >Thời vụ/Hợp đồng ngắn hạn</string>
+    <string name="job44" >Tài chính/Đầu tư</string>
+    <string name="job45" >Thời trang</string>
+    <string name="job46" >Thực phẩm đồ uống</string>
+    <string name="job47" >Truyền hình</string>
+    <string name="job48" >Marketing</string>
+    <string name="job49" >Tư vấn</string>
+    <string name="job50" >Vận chuyển/Giao nhận</string>
+    <string name="job51" >Thu mua/Vật tư/Cung vận</string>
+    <string name="job52" >Viễn thông</string>
+    <string name="job53" >Xây dựng</string>
+    <string name="job54" >Xuất nhập khẩu</string>
+    <string name="job55" >Tự động hóa/Ôtô</string>
+    <string name="st_camera">Máy ảnh</string>
+    <string name="st_gallery">Thư Viện</string>
+    <string name="acceptcv">" đã chấp nhận hồ sơ của bạn!"</string>
+    <string name="refusecv">" đã từ chối hồ sơ của bạn!"</string>
+    <string name="foundjob">" công việc phù hợp với bạn!"</string>
+    <string name="QJNotification">QuickJob thông báo</string>
+    <!--job-->
+    <string name="tthoso">Thông tin hồ sơ</string>
+    <string name="ngaydang">Ngày đăng</string>
+
+    <string name="st_err_gps">GPS is settings</string>
+    <string name="st_err_gps_messeger">Hãy bật GPS để QuickJob có thể tìm thấy công việc gần bạn nhất.</string>
+    <string name="ST_notification">Nhấn vào đây để bật tắt thông báo</string>
+    <string name="ST_info">Nhấn vào đây để xem thông tin tài khoản</string>
+    <string name="ST_pass">Nhấn vào đây để thay đổi mật khẩu</string>
+    <string name="ST_logout">Nhấn vào đây để thoát</string>
+    <string name="ST_appinfo">Nhấn vào đây để xem thông tin ứng dụng và liên lạc với chúng tôi</string>
+    <string name="add_messager">Nhập tin nhắn...</string>
+    <string-array name="languages">
+        <item>Tiếng Anh</item>
+        <item>Tiếng Hàn</item>
+        <item>Tiếng việt</item>
+    </string-array>
+    <string name="selectlanguage">Chọn ngôn ngữ</string>
+    <string name="language">Thay đổi ngôn ngữ</string>
+    <string name="ST_language">Nhấn vào đây để thay đổi ngôn ngữ</string>
+    <string name="removed">đã bị xóa bởi</string>
+    <string name="changed">đã được chỉnh sửa</string>
+    <string name="detail_desc">Mô tả chi tiết</string>
+    <string name="report">Báo cáo</string>
+    <string name="report_success">Báo cáo thành công</string>
+    <string name="report_failed">Báo cáo không thành công</string>
+    <string name="report_existed">Báo cáo nãy đã tồn tại</string>
+    <string name="st_writing">Đang nhập...</string>
+    <string name="st_turnonGPS">Bật GPS</string>
+    <string name="no_data">Chưa có dữ liệu</string>
+    <string name="changelocation">Đổi địa điểm</string>
+    <string name="report_problem">BÁO CÁO CÔNG VIỆC</string>
+    //=============================QJ FIND======================//
+    <!--<string name="app_name">QuickJob Hire</string>-->
+    <!--&lt;!&ndash;<string name="title_activity_dangky">dangky</string>&ndash;&gt;-->
+
+    <!--<string name="slide_1_title_search">Tìm kiếm nhanh chóng</string>-->
+    <!--<string name="slide_2_tile_saving_time">Tiết kiệm tối đa</string>-->
+    <!--<string name="slide_3_title_notification">Thông báo tức thời</string>-->
+    <!--<string name="slide_4_title_start">Bắt đầu ngay</string>-->
+    <!--<string name="slide_1_african_story_books_subtitle">Tìm kiếm chính xác công việc và các ứng viên theo yêu cầu.</string>-->
+    <!--<string name="slide_2_volunteer_professionals_subtitle">Tiết kiệm thời gian và tiền bạc cho người sử dụng.</string>-->
+    <!--<string name="slide_3_download_and_go_subtitle">Thông báo khi có công việc phù hợp, liên tục cập nhật.</string>-->
+    <!--<string name="slide_4_different_languages_subtitle">Hãy cùng trải nghiệm và tìm được công việc yêu thích cho bạn</string>-->
+    <string name="view_sample_tut">View Tutorial Example</string>
+
+    <!--<string name="tutorial_done">BẮT ĐẦU</string>-->
+    <!--<string name="tutorial_skip">BỎ QUA</string>-->
+
+
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <!--<string name="next">Tiếp</string>-->
+    <string name="step1">Bước 1: Nhập thông tin công ty</string>
+    <string name="step2">Bước 2: Nhập thông tin công việc</string>
+    <!--<string name="skip">Bỏ qua</string>-->
+    <!--<string name="start">Bắt đầu</string>-->
+    <string name="action_settings">Cài đặt</string>
+    <!--<string name="slide_1_title">Tìm kiếm</string>-->
+    <!--<string name="slide_1_desc">Tìm kiếm chính xác công việc và các ứng viên theo yêu cầu</string>-->
+    <string name="st_upadate">Cập nhật ngày</string>
+    <!--<string name="slide_2_title">Tiết kiệm</string>-->
+    <!--<string name="slide_2_desc">Tiết kiệm thời gian và tiền bạc</string>-->
+
+    <!--<string name="slide_3_title">Thông báo</string>-->
+    <!--<string name="slide_3_desc">Nhận thông báo việc làm hằng ngày</string>-->
+
+    <!--<string name="slide_4_title">Bắt đầu</string>-->
+    <!--<string name="slide_4_desc">Chào mừng bạn đến với ứng dụng QuickJob</string>-->
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="title_activity_xuat_tim_kiem">XuatTimKiem</string>
+    <string name="title_activity_hoso_cv">HosoCV</string>
+    <string name="title_activity_create_hoso">Tạo hồ sơ</string>
+    <string name="title_activity_home__user">Home</string>
+
+
+    <!-- Content Description -->
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_list__jop">List_Jop</string>
+    <string name="title_activity_edit_profile">Chỉnh sửa hồ sơ</string>
+    <string name="nav_home">Tìm Hồ Sơ</string>
+    <string name="nav_menu_2">Đăng tin việc làm</string>
+    <string name="nav_menu_3">Quản lý công việc</string>
+    <string name="nav_menu_4">Lưu hồ sơ</string>
+    <string name="showmess_sus">Lưu thành công</string>
+    <string name="nav_menu_5">Tài khoản</string>
+    <string name="nav_menu_6">Thoát</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="nav_about_us">About Us</string>
+    <!--<string-array name="nav_item_activity_titles">-->
+        <!--<item>Tìm kiếm</item>-->
+        <!--<item>Hồ sơ đã lưu</item>-->
+        <!--<item>Chat</item>-->
+        <!--<item>Quản lý công việc</item>-->
+        <!--<item>Tài khoản</item>-->
+    <!--</string-array>-->
+    <!-- search dialof-->
+    <string name="search_main">Bộ lọc tìm kiếm</string>
+    <string name="search_filter">Tìm kiếm theo</string>
+    <!-- search dialof-->
+    <!--<string name="activity_title_about_us">About Us</string>-->
+    <!--<string name="activity_title_privacy_policy">Privacy Policy</string>-->
+    <string name="action_deletejpb">Xóa</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="nn">Tất cả ngành nghề</string>
+    <string name="dd">Tất cả địa điểm</string>
+    <string name="ml">Tất cả mức lương</string>
+    <string name="title_activity_recruitment_list">Danh sách tuyển dụng</string>
+    <!--<string name="title_activity_information">Thông tin tài khoản</string>-->
+    <string name="title_activity_updatejob">Sửa công việc</string>
+    <string name="title_activity_account">Tài Khoản</string>
+    <!--<string name="title_activity_editaccount">Sửa thông tin tài khoản</string>-->
+    <!--<string name="addProfile">Chọn hồ sơ để ứng tuyển</string>-->
+    <string name="title_activity_detail_profile">Chi tiết hồ sơ</string>
+    <!--<string name="title_activity_chanepass">Thay đổi mật khẩu.</string>-->
+    <string name="st_txttencty">Tên công ty</string>
+    <!--// create job-->
+    <!--<string name="st_location">Vị trí</string>-->
+    <string name="st_txtluong">Lương</string>
+    <!--<string name="st_kinang">Kỹ năng</string>-->
+    <!--<string name="st_thoat">Thoát</string>-->
+    <!--<string name="st_chon">Chọn</string>-->
+    <!--<string name="st_ngoaingu">Ngoại ngữ</string>-->
+    <!--<string name="st_gtNam">Nam</string>-->
+    <!--<string name="st_gtNu">Nữ</string>-->
+    <string name="st_gtAll">Tất cả</string>
+    <string name="st_doTuoiYC">Nhập độ tuổi yêu cầu</string>
+    <string name="st_doTuoitimkiem">Nhập độ tuổi muốn tìm kiếm</string>
+    <string name="st_Tuoi">Tuổi</string>
+    <!--<string name="st_err_taocv">Hãy nhập đầy đủ thông tin rồi thử lại</string>-->
+    <!--<string name="st_err_anh">Hãy chọn ảnh</string>-->
+    <!--<string name="st_uploading">Uploading...</string>-->
+    <!--<string name="st_plsWait">Please wait...</string>-->
+    <!--<string name="st_about_job">Nội dung</string>-->
+    <!--<string name="st_about_company">Nhà tuyển dụng</string>-->
+
+    <!--create profile-->
+    <string name="st_Hoso">Hồ sơ</string>
+    <!--<string name="st_errHoso">Hồ sơ đã được tạo</string>-->
+    <!--<string name="st_errServer">Không thể kết nối với máy chủ</string>-->
+    <!--<string name="st_errNamePass">Tên đăng nhập hoặc mật khẩu hoặc email không hợp lệ</string>-->
+    <!--<string name="st_create_success">Tạo thành công</string>-->
+    <!--<string name="st_edit_success">Sửa thành công</string>-->
+
+    <!--trạng thái-->
+    <!--<string name="st_stt_dangcho">Đang chờ</string>-->
+    <!--<string name="st_stt_dachapnhan">Đã chấp nhận</string>-->
+    <!--<string name="st_stt_datuchoi">Đã từ chối</string>-->
+
+    <string name="st_xacNhanXoaCV">Bạn có chắc muốn xóa công việc này</string>
+    <string name="st_xacXoaCV">Xóa thành công</string>
+    <string name="st_xacNhanXoaHS">Bạn có chắc muốn xóa hồ sơ này</string>
+    <!--<string name="st_xacNhanOK">Có</string>-->
+    <!--<string name="st_xacNhanCancel">Không</string>-->
+    <string name="st_dangkyNTV">NGƯỜI TÌM VIỆC</string>
+    <string name="st_dangkyNTD">NHÀ TUYỂN DỤNG</string>
+    <!--<string name="st_dangky">Đăng ký</string>-->
+
+    <!--home user-->
+    <string name="st_qlcv">Quản lý công việc</string>
+    <!--<string name="st_timkiem">Tìm kiếm</string>-->
+    <string name="st_dangtinvieclam">Đăng tin việc làm</string>
+    <string name="st_qlHoSo">Hồ sơ của tôi</string>
+    <string name="st_qlVieclam">Quản lý việc làm</string>
+    <string name="st_hsDaLuu">Hồ sơ đã lưu</string>
+    <string name="st_cvDaUngTuyen">Việc làm đã ứng tuyển</string>
+    <string name="st_cvDaLuu">Việc làm đã lưu</string>
+    <string name="st_ycDangXuat">Bạn muốn đăng xuất?</string>
+    <string name="st_ycThoat">Bạn muốn thoát khỏi ứng dụng?</string>
+    <!--<string name="st_quenmk">Gửi</string>-->
+    <!--<string name="st_loiKXD">Lỗi không xác định</string>-->
+    <!--<string name="st_pemissonCamera">Bạn cần phải cấp phép máy ảnh để sử dụng máy ảnh</string>-->
+    <string name="st_kinhnghiem">Kinh nghiệm</string>
+    <string name="st_nam">Năm</string>
+
+    <!--login-->
+    <string name="st_account_tontai">Email đã tồn tại</string>
+    <string name="st_hayNhapUSERPASS">Hãy nhập thông tin tài khoản hoặc mật khẩu</string>
+    <!--<string name="st_sendagain">Gửi lại</string>-->
+    <string name="st_erroDodaiUSERPASS">Độ dài tài khoản hoặc mật khẩu phải lớn hơn 1 kí tự</string>
+    <!--<string name="st_saiTKMK">Sai tài khoản hoặc mật khẩu</string>-->
+    <string name="st_nhapTKDK">Hãy nhập đầy đủ thông tin</string>
+    <!--<string name="st_loiMK">Mật khẩu không trùng khớp</string>-->
+    <string name="st_DKSuccess">Đăng ký thành công</string>
+    <string name="st_CHANGE">Thay đổi</string>
+    <!--<string name="st_CHANGE_PASSWORD">Đổi mật khẩu</string>-->
+
+    <!--chi tiết công việc-->
+    <!--<string name="st_motacv">Mô tả công việc</string>-->
+    <string name="st_yeucaucv">Yêu cầu công việc</string>
+    <!--<string name="st_dotuoiCV">Độ tuổi</string>-->
+    <string name="st_ycngoainguCV">Yêu cầu ngoại ngữ</string>
+    <string name="st_yckynangCV">Yêu cầu kỹ năng</string>
+    <string name="st_yckhacCV">Yêu cầu khác</string>
+    <string name="st_ungtuyenCV">Ứng tuyển</string>
+    <!--<string name="st_goidienCV">Gọi điện</string>-->
+    <string name="st_chiaseCV">Chia sẻ</string>
+    <!--<string name="st_luuCV">Lưu</string>-->
+
+    <!--content detail profile-->
+    <string name="st_hocvancn">Trình độ học vấn cao nhất</string>
+    <!--<string name="st_sdt">Số điện thoại</string>-->
+    <!--<string name="st_quequan">Quê quán</string>-->
+    <!--<string name="st_diachict">Địa chỉ</string>-->
+    <string name="st_mucluongct">Mức Lương mong muốn</string>
+    <string name="st_hocvanct">Học vấn</string>
+    <string name="st_ngonnguct">Ngôn ngữ</string>
+    <string name="st_thongtinct">Thông tin bổ sung</string>
+    <string name="st_tuchoict">Từ chối</string>
+    <string name="st_chapnhanct">Chấp nhận</string>
+    <string name="st_guict">Gửi</string>
+    <string name="st_goict">Gọi</string>
+    <!--<string name="st_gioitinhct">Giới tính </string>-->
+
+
+    <!--fragment first tab-->
+    <string name="st_chuacoHS">Chưa có hồ sơ ứng tuyển nào</string>
+
+    <!--login-->
+    <!--<string name="st_hintEmail">Email</string>-->
+    <!--<string name="st_hintPass">Mật khẩu</string>-->
+    <!--<string name="st_btnLogin">Đăng nhập</string>-->
+    <string name="st_txtDangky">Chưa có tài khoản? Đăng ký ngay!</string>
+
+    <!--đăng ký nhà tuyển dụng-->
+    <!--<string name="st_hintTenCT">Tên công ty</string>-->
+    <string name="st_hintRepeatPass">Nhập lại mật khẩu</string>
+    <string name="st_btnTaoTK">Tạo tài khoản</string>
+    <!--<string name="st_txtDangNhap">Đã có tài khoản? Đăng nhập ngay!</string>-->
+
+    <!--đăng ký người tìm việc-->
+    <string name="st_tenNTV">Tên của bạn</string>
+
+    <!--dialog -->
+    <string name="st_btnNTV">Người tìm việc</string>
+    <string name="st_btnNTD">Nhà tuyển dụng</string>
+
+    <!--dialog mức lương-->
+    <string name="st_tu">Từ</string>
+    <string name="st_den">Đến</string>
+
+    <!--edit_profile-->
+    <!--<string name="st_tenProf">Họ và tên</string>-->
+    <!--<string name="st_btnChonNgaySinh">Chọn ngày sinh</string>-->
+    <!--<string name="st_ttLienHe">THÔNG TIN LIÊN HỆ</string>-->
+    <!--<string name="st_ttKinhNghiem">KINH NGHIỆM (không bắt buộc)</string>-->
+    <!--<string name="st_ttCongViec">CÔNG VIỆC MONG MUỐN</string>-->
+    <!--<string name="st_ttnnAdd">Chưa có ngoại ngữ nào nhấn (+) để thêm.</string>-->
+    <!--<string name="st_ttknAdd">Chưa có kỹ năng nào nhấn (+) để thêm.</string>-->
+    <!--<string name="st_btnXoa">Xóa</string>-->
+    <string name="st_cteatejob">Tạo công việc</string>
+    <!--<string name="st_btnEdit">Chỉnh sửa</string>-->
+    <string name="st_editjob">Chỉnh sửa công việc</string>
+    <!--<string name="action_logout">Đăng xuất</string>-->
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="st_reg">Bạn cần đăng nhập để nộp hồ sơ</string>
+    <!--<string name="st_skill">Năm kinh nghiệm</string>-->
+    <string name="title_activity_edit_job">EditJobActivity</string>
+    <!--<string name="st_hintTotNghiep">Tốt nghiệp trường</string>-->
+    <!--<string name="st_hintChuyenNganh">Chuyên ngành</string>-->
+    <!--<string name="st_hintThanhTuu">Thành tựu đạt được</string>-->
+    <!--<string name="st_hintNamKN">Số năm kinh nghiệm</string>-->
+    <!--<string name="st_hintChucDanh">Chức danh</string>-->
+    <!--<string name="st_hintMoTaCV">Mô tả công việc</string>-->
+    <string name="st_hintTenCTMM">Tên công ty mong muốn</string>
+    <!--<string name="st_hintTenCVMM">Tên công việc mong muốn</string>-->
+    <!--<string name="st_hintViTriMM">Vị trí mong muốn</string>-->
+    <string name="st_diachi">Địa chỉ</string>
+    <string name="st_phone">Số điện thoại</string>
+    <!--TẠO CÔNG VIỆC-->
+
+    <string name="st_Phone">Số điện thoại</string>
+    <string name="st_txtTTCT">THÔNG TIN CÔNG TY</string>
+    <string name="st_txtChonLogo">Chọn logo công ty</string>
+    <string name="st_txtQuyMo">Quy mô</string>
+    <string name="st_hintNganhNghe">Ngành nghề</string>
+    <!--<string name="st_txtGTCT">Giới thiệu về công ty</string>-->
+    <string name="st_txtTTCV">THÔNG TIN CÔNG VIỆC</string>
+    <string name="st_hintTenCV">Tên công việc</string>
+    <string name="st_hintMotaCV">Mô tả công việc</string>
+    <string name="st_hintSoLuongTuyen">Số lượng tuyển</string>
+    <string name="st_hintHanNop">Hạn nộp hồ sơ</string>
+    <!--<string name="st_hintYeuCau">YÊU CẦU</string>-->
+    <string name="st_hintYeuCauTuoi">Tuổi yêu cầu</string>
+    <string name="st_gtKhac">Khác</string>
+    <string name="st_gt">Giới tính</string>
+    <string name="st_ycKhac">Yêu cầu khác</string>
+    <!--<string name="st_phucloi">Phúc lợi</string>-->
+    <string name="st_btnNhapLai">Nhập lại</string>
+    <string name="st_btnDangTin">Đăng tin</string>
+
+    <!--QUẢN LÝ CÔNG VIỆC-->
+    <string name="st_congViec">Công việc</string>
+    <string name="st_slUngTuyen">Số lượng hồ sơ đã ứng tuyển</string>
+    <string name="st_ttQuangCao">Chưa có tin quảng cáo nào, nhấn vào phần dưới đây để tạo.</string>
+    <string name="st_timkiemNangCao">Tìm kiếm nâng cao</string>
+    <!--<string name="st_chuaUngTuyenCV">Chưa ứng tuyển công việc nào.</string>-->
+    <!--<string name="st_chuaCoCV">Chưa có công việc</string>-->
+    <string name="st_btnTaoHS">Tạo hồ sơ</string>
+    <string name="st_chuaHSLuu">Chưa có hồ sơ nào được lưu.</string>
+    <string name="st_timUngVien">Tìm kiếm ứng viên</string>
+    <!--<string name="st_hocVanTitle">HỌC VẤN</string>-->
+    <string name="st_taoProfile">Tạo</string>
+    <string name="st_dangTinQC">Đăng tin quảng cáo</string>
+
+
+    // chi tiết hồ sơ
+    <string name="st_hs">HỒ SƠ</string>
+    <string name="st_hsDaChon">Hồ sơ đã được chọn</string>
+    <string name="st_tuChoiHS">Từ chối thành công</string>
+    <string name="st_xoaHS">Bạn có chắc muốn xóa hồ sơ này.</string>
+
+    <!--<string name="error_invalid_email">Địa chỉ email này không hợp lệ</string>-->
+    <!--<string name="error_invalid_password">Mật khẩu quá ngắn</string>-->
+    <string name="error_incorrect_password">Mật khẩu này là không chính xác</string>
+    <!--<string name="error_field_required">Không thể bỏ qua nội dung này</string>-->
+    <string name="error_invalid_ten">Tên quá ngắn</string>
+    <!--<string name="error_invalid_tenCY">Tên công ty quá ngắn</string>-->
+    <string name="error_invalid_phone">Số điện thoại không đúng định dạng</string>
+    <string name="st_changepass">Thay đổi mật khẩu</string>
+    <!--<string name="st_oldpass">Mật khẩu cũ</string>-->
+    <!--<string name="st_newpass">Mật khẩu mới</string>-->
+    <!--<string name="st_renewpass">Nhập lại mật khẩu</string>-->
+    <string name="st_endDate">Ngày hết hạn :</string>
+    <!--<string name="st_xacNhan">Xác nhận</string>-->
+    <string name="st_maKHL">Mã không hợp lệ</string>
+    <!--<string name="st_maXN_khongdung">Mã xác nhận không đúng</string>-->
+    <string name="st_quenmk_ten"><u>Quên mật khẩu?</u></string>
+    <string name="st_ktTimKiem">Kết quả tìm kiếm</string>
+    <!--<string name="st_nhapMaXN">Nhập mã xác nhận</string>-->
+    <!--<string name="st_btnthem">Tạo</string>-->
+    <string name="st_quenmkTK">Quên mật khẩu</string>
+
+
+    <!--25/8/2016-->
+    <!--<string name="action_favorite">Lưu</string>-->
+    <!--<string name="action_share">Chia sẻ</string>-->
+    <string name="st_about">About</string>
+    <string name="st_exit">Thoát?</string>
+    <string name="st_try_again">Try again</string>
+    <string name="server_unreachable">Không thể kết nối với máy chủ? Try again!</string>
+
+    <string name="st_andress">Địa chỉ</string>
+
+    <!--<string name="st_info">Thông tin cá nhân</string>-->
+    <!--<string name="st_age">Tuổi</string>-->
+    <string name="st_avatar">Ảnh đại diện</string>
+    <!--<string name="st_changeSuccess">Thay đổi mật khẩu thành công</string>-->
+    <!--<string name="st_changeError">Mật khẩu không đúng</string>-->
+    <!--<string name="st_changeOldError">Mật khẩu cũ không đúng</string>-->
+    <!--<string name="st_selectLocation">Chọn địa điểm</string>-->
+    <string name="st_selectLocation2">Nơi làm việc</string>
+    <string name="st_workplace">Nơi làm việc mong muốn</string>
+
+    <!--<string name="st_cancel">Hủy</string>-->
+    <!--<string name="copy_right">Copyrights © %1$d</string>-->
+    <!--<string name="st_ttud">Thông tin ứng dụng</string>-->
+    <!--<string name="st_chuacoTK">Đăng ký ngay!</string>-->
+
+    <!--<string name="about_app">Quick Job là một ứng dụng tìm việc ra đời nhằm mục đích giúp mọi người có thể tìm kiếm công việc một cách nhanh chóng, chính xác, tiện lợi. Hi vọng mọi người sẽ hài lòng về ứng dụng này. Nếu có thắc mắc gì hãy liên hệ với chúng tôi</string>-->
+    <string name="fabcreate">Tạo công việc(VIP)</string>
+    <string name="fabcreatefast">Tạo công việc</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="confirm_delete">Xác nhận đăng xuất..</string>
+    <string name="delete_detail">Bạn có muốn thoát?</string>
+    <string name="btn_yes">có</string>
+    <string name="btn_no">không</string>
+    <string name="titlenotification">QuickJob</string>
+    <string name="textnotification">đã ứng tuyển vào công việc</string>
+
+
+
+    <!--<string name="ST_notification">Nhấn vào đây để bật tắt thông báo</string>-->
+    <!--<string name="ST_info">Nhấn vào đây để xem thông tin tài khoản</string>-->
+    <string name="ST_password">Nhấn vào đây để đổi mật khẩu</string>
+    <string name="ST_app">Nhấn vào đây để xem thông tin ứng dụng</string>
+    <string name="ST_exit">Nhấn vào đây để thoát khỏi ứng dụng</string>
+    <string name="st_notrequest">không yêu cầu</string>
+    <string name="st_not_apply">Chưa có hồ sơ ứng tuyển</string>
+    <!--<string name="st_apply">Số hồ sơ đã ứng tuyển:</string>-->
+    <string name="confirm_del">Xác nhận xóa</string>
+    <string name="fab_premium">Đăng kí quảng cáo</string>
+    <string name="register_adv">Liên hệ chúng tôi: 01645065117</string>
+    <!--<string name="add_messager">Nhập tin nhắn...</string>-->
+    <!--<string name="yesterday">hôm qua</string>-->
+    <!--<string name="anhour">1 giờ trước</string>-->
+    <!--<string name="anminute">1 phút trước</string>-->
+    <!--<string name="justnow">bây giờ</string>-->
+    <!--<string name="minutesago">phút trước</string>-->
+    <!--<string name="hourago">giờ trước</string>-->
+    <!--<string name="daysago">ngày trước</string>-->
+    <!--<string-array name="languages">-->
+        <!--<item>Tiếng Anh</item>-->
+        <!--<item>Tiếng Hàn</item>-->
+        <!--<item>Tiếng việt</item>-->
+    <!--</string-array>-->
+    <!--<string name="language">Thay đổi ngôn ngữ</string>-->
+    <!--<string name="ST_language">Nhấn vào đây để thay đổi ngôn ngữ</string>-->
+    <!--<string name="selectlanguage">Chọn ngôn ngữ</string>-->
+    <string name="selectjob_share">Chọn công việc</string>
+    <string name="shareQJ_user">Chia sẻ với người dùng QuickJob</string>
+    <string name="shareDifference_user">Chia sẻ với ứng dụng khác</string>
+    <string name="saved_profile">đã lưu</string>
+    <!--<string name="st_writing">Đang nhập...</string>-->
+    <string name="st_chuacoCV">Bạn chưa tạo công việc. Nhấn nút \"TẠO\" để tạo công việc</string>
+    <string name="nodata">Không tìm thấy dữ liệu</string>
+    <string name="st_xoaChat">Bạn có chắc muốn xóa trò chuyện này</string>
+    <string name="cross">Cross</string>
+    <!--<string name="no_data">Chưa có dữ liệu</string>-->
+    <string name="btnChat">Chat</string>
+    <string name="btnCall">Gọi</string>
+    <string name="st_qjfind">Bạn là nhà tuyển dụng! nhấn vào đây.</string>
+    <string name="st_qjhire">Bạn muốn tìm việc! nhấn vào đây.</string>
+    <string name="action_favorite">Lưu</string>
+    <string name="title_activity_viduactivity">viduactivity</string>
+    <string name="title_activity_near_maps">Map</string>
+    <string name="title_activity_information__company">Information_Company</string>
+    <string name="title_activity_chatting">Chat</string>
+</resources>

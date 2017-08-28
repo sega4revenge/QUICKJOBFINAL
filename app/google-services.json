@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "784353798789",
+    "firebase_url": "https://job-find-2fb6d.firebaseio.com",
+    "project_id": "job-find-2fb6d",
+    "storage_bucket": "job-find-2fb6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784353798789:android:21d80fd9100347e1",
+        "android_client_info": {
+          "package_name": "com.finger.jobfind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784353798789-q3287rdu7sm92766o5v9mlpc1khg4frr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVvzK8e1sTrxZNdZ3ZVRq2hplNW5_4W6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784353798789:android:f873f186aec4d461",
+        "android_client_info": {
+          "package_name": "com.example.quickjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784353798789-q3287rdu7sm92766o5v9mlpc1khg4frr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVvzK8e1sTrxZNdZ3ZVRq2hplNW5_4W6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784353798789:android:43f48388249a7d1d",
+        "android_client_info": {
+          "package_name": "com.quickjob.quickjobFinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784353798789-q3287rdu7sm92766o5v9mlpc1khg4frr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVvzK8e1sTrxZNdZ3ZVRq2hplNW5_4W6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

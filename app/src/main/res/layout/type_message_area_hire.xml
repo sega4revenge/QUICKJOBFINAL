@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:padding="2dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="100">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POST MY JOBS"
+            android:id="@+id/txt_sharejob"
+            android:textSize="13dp"
+            android:textColor="@color/actionbar"
+            android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/rep_chat"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="100"
+        android:background="@drawable/border_editchat"
+        android:hint="@string/add_messager"
+        android:paddingLeft="15dp"
+        android:textSize="13dp" />
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_send"
+            android:visibility="gone"
+            android:background="@drawable/ic_sendchat"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </LinearLayout>
+

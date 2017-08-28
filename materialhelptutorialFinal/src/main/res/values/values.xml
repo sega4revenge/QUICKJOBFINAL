@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tutorial_buttonTextColor">#ffffff</color>
+    <color name="tutorial_subtitleTextColor">#ffffff</color>
+    <color name="tutorial_titleTextColor">#ffffff</color>
+    <color name="gg">#df4a32</color>
+    <color name="fb">#4d6fa8</color>
+    <color name="fb1">#7290c4</color>
+    <color name="colorBlack">#0a090a</color>
+    <color name="monsoon">#777777</color>
+    <color name="colorWhite2">#E0E0E0</color>
+</resources>

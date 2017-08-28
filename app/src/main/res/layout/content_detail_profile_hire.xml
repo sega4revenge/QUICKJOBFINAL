@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context="com.fist.quickjob.quickjobhire.activity.DetailProfileActivity"
+        android:background="#d6d6d6">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ln2"
+            android:background="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <LinearLayout
+                android:id="@+id/ln1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3b5eb7"
+                android:orientation="vertical"
+                android:paddingBottom="24dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingTop="24dp"
+                android:elevation="2dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView
+                        android:id="@+id/thumbnail"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFFFFF"
+                            android:text="Sơn Thọ"
+                            android:id="@+id/name"
+                            android:textSize="24sp"/>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#ffffff"
+                                android:text="@string/st_gioitinhct"
+                                android:textSize="14sp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#ffffff"
+                                android:textSize="14sp"
+                                android:id="@+id/gioitinh"
+                                android:layout_marginLeft="8dp"
+                                android:text="Nam"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#fffefe"
+                                android:text="@string/st_Tuoi"
+                                android:textSize="14sp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#ffffff"
+                                android:textSize="14sp"
+                                android:id="@+id/tuoi"
+                                android:layout_marginLeft="8dp"
+                                android:text="18"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ln2"
+            android:layout_centerHorizontal="true"
+            android:weightSum="3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_hintEmail"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#483d3d"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp">
+
+
+
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sontho22@gmail.comsdfsddfdgdgfgdgdfgfsdfsdf"
+                        android:layout_weight="30"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:id="@+id/btnSend"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/st_guict"
+                        android:textStyle="bold"
+                        android:theme="@style/MyButtonDefault"
+                        android:textColor="#FFFFFF"
+                        android:layout_weight="70"
+                        android:layout_marginLeft="30dp"/>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_sdt"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#483d3d"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp">
+
+
+
+                    <TextView
+                        android:id="@+id/txtPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="09745654545"
+                        android:layout_weight="30"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:id="@+id/btnCall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/st_goict"
+                        android:textStyle="bold"
+                        android:theme="@style/MyButtonDefault"
+                        android:textColor="#FFFFFF"
+                        android:layout_weight="70"
+                        android:layout_marginLeft="30dp"/>
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Large Text"
+                    android:background="#d1d1d1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_kinhnghiem"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#483d3d"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/txtKinhNghiem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tôi đã từng làm việc ở công ty Finger, tôi là một người sáng tạo, nhiệt huyết"
+                    android:layout_weight="30"
+                    android:layout_gravity="center"
+                    android:padding="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Large Text"
+                    android:background="#d1d1d1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_quequan"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#483d3d"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/txtQueQuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="An Nhơn"
+                    android:layout_weight="30"
+                    android:layout_gravity="center"
+                    android:padding="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Large Text"
+                    android:background="#d1d1d1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_diachict"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#483d3d"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/txtDiaChi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="An Nhơn"
+                    android:layout_weight="30"
+                    android:layout_gravity="center"
+                    android:padding="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Large Text"
+                    android:background="#d1d1d1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_kinang"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#483d3d"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/txtKyNang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ANDROID VÀ SQL"
+                    android:layout_weight="30"
+                    android:layout_gravity="center"
+                    android:padding="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Large Text"
+                    android:background="#d1d1d1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_mucluongct"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#483d3d"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/txtMucLuong"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10.000.000 VNĐ"
+                    android:layout_weight="30"
+                    android:layout_gravity="center"
+                    android:padding="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Large Text"
+                    android:background="#d1d1d1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_hocvanct"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#483d3d"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/txtHocVan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cao đẳng"
+                    android:layout_weight="30"
+                    android:layout_gravity="center"
+                    android:padding="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Large Text"
+                    android:background="#d1d1d1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_ngonnguct"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#483d3d"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/txtNgonNgu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tiếng Anh và Tiếng Việt"
+                    android:layout_weight="30"
+                    android:layout_gravity="center"
+                    android:padding="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Large Text"
+                    android:background="#d1d1d1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_thongtinct"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#483d3d"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    />
+                <TextView
+                    android:id="@+id/txtThongTinBoSung"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hy vọng được hợp tác với công ty, tôi sẽ cố gắng nỗ lực để ngày càng hoàn thiện bản thân hơn..."
+                    android:layout_weight="30"
+                    android:layout_gravity="center"
+                    android:padding="12dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/line">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_tuchoict"
+                    android:textStyle="bold"
+                    android:theme="@style/MyButton2"
+                    android:id="@+id/btnno"
+                    android:ems="8"
+                    android:layout_gravity="center_horizontal">
+                </Button>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_chapnhanct"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:theme="@style/MyButtonDefault"
+                    android:id="@+id/btnok"
+                    android:textColor="#FFFFFF"
+                    android:ems="8"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_menu_4"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:theme="@style/MyButton"
+                    android:id="@+id/btnsave"
+                    android:visibility="gone"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="2dp"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/card_content"
+        android:background="@drawable/xml_border_edittext"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/relaone"
+                android:layout_marginLeft="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="16dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+                        <TextView
+                            android:id="@+id/tencongviec"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Large Text dsft dsfsd Large Text dsfsd"
+                            android:textSize="18dp"
+                            android:ellipsize="end"
+                            android:layout_weight="80"
+                            android:textColor="@color/black"
+                            android:maxLines="1"/>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="20"
+                            android:gravity="right"
+                            android:id="@+id/btn_menu"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:background="@drawable/more_button"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="4dp"
+                        android:visibility="gone"
+                        >
+                        <!--<ImageView-->
+                            <!--android:id="@+id/imageView"-->
+                            <!--android:layout_width="18dp"-->
+                            <!--android:layout_height="18dp"-->
+                            <!--android:layout_marginTop="1dp"-->
+                            <!--android:background="@drawable/vector_ic_home" />-->
+
+                        <TextView
+                            android:id="@+id/tenct"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="MediumMediumMediumMediumMediumMediumMediumMedium Text Medium "
+                            android:layout_gravity="center"
+                            android:textSize="14sp"
+                            android:layout_marginRight="80dp"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/trangthai"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#c43737"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="40"
+                        android:gravity="bottom">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="15dp"
+                        android:weightSum="100"
+                        android:id="@+id/linone"
+                        >
+                        <TextView
+                            android:id="@+id/diachi"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Địa điểm "
+                            android:maxLines="1"
+                           android:textSize="14sp"
+                            android:layout_weight="60"
+                            android:layout_gravity="center"/>
+
+                        <TextView
+                            android:id="@+id/luong"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="lương Laxt dsfsd"
+                            android:textSize="14sp"
+                            android:gravity="right"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:layout_centerVertical="true"
+                            android:layout_weight="40" />
+                    </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/linone"
+                            android:layout_marginTop="2dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/st_endDate"
+                                android:gravity="right"
+                                android:textColor="@color/counter_text_color"
+                                android:layout_alignTop="@+id/luong"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginRight="5dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="New Text"
+                                android:id="@+id/dateup1"
+                                android:gravity="right"
+                                android:textColor="#ea3939"
+                                android:layout_alignTop="@+id/luong"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#EEEEEE"
+                    android:layout_margin="5dp"/>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                >
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/st_not_apply"
+                android:id="@+id/noti"
+                android:textColor="@color/black"/>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recyclerview_profile"
+                android:layout_marginTop="5dp">
+                </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

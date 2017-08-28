@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="gray">#84847c</color>
+        <color name="colorPrimary">#2D78B1</color>
+        <color name="colorPrimaryDark">#276899</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="myPrimaryColor">#3F51B5</color>
+        <color name="myPrimaryDarkColor">#3F51B5</color>
+        <color name="myAccentColor">#3F51B5</color>
+        <color name="myDrawerBackground">#F2F2F2</color>
+        <color name="myWindowBackground">#ffffff</color>
+        <color name="myTextPrimaryColor">#FFFFFF</color>
+        <color name="myNavigationColor">#000000</color>
+        <color name="myNavigationColor2">#277824</color>
+        <color name="selected_gray">#ffdbdbdb</color>
+        <color name="colorBg">#2D78B1</color>
+        <color name="colorWhite">#FFF</color>
+        <color name="colorGrey">#D1D1D1</color>
+        <color name="selected">#dfdfdf</color>
+        <!-- Screens background color-->
+        <color name="bg_screen1">#f64c73</color>
+        <color name="bg_screen2">#20d2bb</color>
+        <color name="bg_screen3">#3395ff</color>
+        <color name="bg_screen4">#c873f4</color>
+        <color name="blue">#00f</color>
+        <color name="white_transparent">#99FFFFFF</color>
+        <color name="red">#df4a32</color>
+        <color name="text">#488afa</color>
+        <!-- dots inactive colors -->
+        <color name="dot_dark_screen1">#d1395c</color>
+        <color name="dot_dark_screen2">#14a895</color>
+        <color name="dot_dark_screen3">#2278d4</color>
+        <color name="dot_dark_screen4">#a854d4</color>
+        <color name="colorBlack">#0a090a</color>
+        <color name="colorWhite2">#E0E0E0</color>
+        <!-- dots active colors -->
+        <color name="dot_light_screen1">#f98da5</color>
+        <color name="dot_light_screen2">#8cf9eb</color>
+        <color name="dot_light_screen3">#93c6fd</color>
+        <color name="dot_light_screen4">#e4b5fc</color>
+
+        <color name="white3">#dfe3ee</color>
+        <array name="array_dot_active">
+            <item>@color/dot_light_screen1</item>
+            <item>@color/dot_light_screen2</item>
+            <item>@color/dot_light_screen3</item>
+            <item>@color/dot_light_screen4</item>
+        </array>
+        <color name="color_event">#fcdca7</color>
+        <array name="array_dot_inactive">
+            <item>@color/dot_dark_screen1</item>
+            <item>@color/dot_dark_screen2</item>
+            <item>@color/dot_dark_screen3</item>
+            <item>@color/dot_dark_screen4</item>
+        </array>
+        <color name="indigo">#bfe7d9</color>
+        <color name="pink">#499646</color>
+        <color name="primary">#1e8e66</color>
+        <color name="primary_dark">#084a32</color>
+        <color name="primary_darker">#066b4b</color>
+        <color name="accent">#1dc655</color>
+        <color name="black">#333333</color>
+        <color name="jet">#FFFFFF</color>
+        <color name="oil">#333333</color>
+        <color name="monsoon">#777777</color>
+        <color name="jumbo">#888888</color>
+        <color name="aluminum">#999999</color>
+        <color name="base">#AAAAAA</color>
+        <color name="iron">#CCCCCC</color>
+        <color name="white">#FFFFFF</color>
+        <color name="fb">#4d6fa8</color>
+        <color name="fb1">#7290c4</color>
+        <color name="gg">#df4a32</color>
+        <color name="gg1">#ce7668</color>
+        <color name="list_item_title">#fff</color>
+        <color name="list_background">#ffffff</color>
+        <color name="list_background_pressed">#eeeeee</color>
+        <color name="list_divider">#272727</color>
+        <color name="counter_text_bg">#626262</color>
+        <color name="counter_text_color">#c5c4c4</color>
+
+        <color name="genre">#666666</color>
+        <color name="location">#888888</color>
+        <color name="list_row_start_color">#ffffff</color>
+        <color name="list_row_end_color">#ffffff</color>
+        <color name="list_row_hover_start_color">#ebeef0</color>
+        <color name="list_row_hover_end_color">#ebeef0</color>
+        <color name="indigo2">#c3e3ed</color>
+        <color name="pink2">#ffffff</color>
+        <color name="indigo3">#95def6</color>
+        <color name="pink3">#0a2f24</color>
+        <color name="color1">#357dfa</color>
+        <color name="color2">#a6c4f1</color>
+        <color name="color3">#8de7a0</color>
+        <color name="color4">#2f8625</color>
+        <color name="color5">#cfbfa0</color>
+        <color name="color6">#f5953c</color>
+        <color name="color_background_button">#2D78B1</color>
+        <color name="color_boder_button">#ffffff</color>
+        <color name="color_vector_icon">#8A000000</color>
+        <color name="color_vector_icon_search">#2D78B1</color>
+        <color name="blur">#80000000</color>
+        <color name="slide_1">#4CAF50</color>
+        <color name="slide_2">#2196F3</color>
+        <color name="slide_3">#009688</color>
+        <color name="slide_4">#607D8B</color>
+        <color name="actionbar">#3b5998</color>
+        <color name="tutorial_buttonTextColor">#ffffff</color>
+    </resources>
+
+

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="report">
+        <item>신뢰할 수없는 작업 내용</item>
+        <item>취업 사기</item>
+        <item>스팸</item>
+        <item>유료 작품</item>
+        <item>다른</item>
+    </string-array>
+    <string-array name="mucluong">
+        <item>임금 협약</item>
+        <item>1-3 million</item>
+        <item>3-5 million</item>
+        <item>5-7 million</item>
+        <item>7-10 million</item>
+        <item>10-15 million</item>
+        <item>15-30 million</item>
+        <item>more 30 million</item>
+    </string-array>
+    <string-array name="select_setting_information">
+        <item>Hà Nội</item>
+        <item>Đà Nẵng</item>
+        <item>Hồ Chí Minh</item>
+        <item>An Giang</item>
+        <item>Bà Rịa-Vũng Tàu</item>
+        <item>Bắc Cạn</item>
+        <item>Bắc Giang</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Biên Hòa</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Cao Bằng</item>
+        <item>Đắc Lắc</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Tây</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hòa Bình</item>
+        <item>Huế</item>
+        <item>Hưng Yên</item>
+        <item>Khánh hòa</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa-Thiên-Huế</item>
+        <item>Tiền Giang</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Kiên Giang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+        <item>Quốc Tế</item>
+        <item>Hậu Giang</item>
+    </string-array>
+    <string-array name="select_location_search">
+        <item>장소 선택</item>
+        <item>Hà Nội</item>
+        <item>Đà Nẵng</item>
+        <item>Hồ Chí Minh</item>
+        <item>An Giang</item>
+        <item>Bà Rịa-Vũng Tàu</item>
+        <item>Bắc Cạn</item>
+        <item>Bắc Giang</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Biên Hòa</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Cao Bằng</item>
+        <item>Đắc Lắc</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Tây</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hòa Bình</item>
+        <item>Huế</item>
+        <item>Hưng Yên</item>
+        <item>Khánh hòa</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa-Thiên-Huế</item>
+        <item>Tiền Giang</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Kiên Giang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+        <item>Quốc Tế</item>
+        <item>Hậu Giang</item>
+    </string-array>
+    <string-array name="diadiem">
+        <item>장소 선택</item>
+        <item>Hà Nội</item>
+        <item>Đà Nẵng</item>
+        <item>Hồ Chí Minh</item>
+        <item>An Giang</item>
+        <item>Bà Rịa-Vũng Tàu</item>
+        <item>Bắc Cạn</item>
+        <item>Bắc Giang</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Biên Hòa</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Cao Bằng</item>
+        <item>Đắc Lắc</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Tây</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hòa Bình</item>
+        <item>Huế</item>
+        <item>Hưng Yên</item>
+        <item>Khánh hòa</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa-Thiên-Huế</item>
+        <item>Tiền Giang</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Kiên Giang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+        <item>Quốc Tế</item>
+        <item>Hậu Giang</item>
+    </string-array>
+    <string-array name="speducation">
+        <item>고등학교</item>
+        <item>2년 전문학교</item>
+        <item>3년 대학교</item>
+        <item>대학교</item>
+        <item>대학원</item>
+    </string-array>
+    <string-array name="nganhNghe">
+        <item>직업 선택</item>
+        <item>바텐더</item>
+        <item>미용 &amp; 스파</item>
+        <item>요양원</item>
+        <item>요리사</item>
+        <item>청소</item>
+        <item>이벤트 &amp; 프로모터</item>
+        <item>건설</item>
+        <item>기사 &amp; 속달우편 직원</item>
+        <item>교육</item>
+        <item>요리사 보조원</item>
+        <item>사무 &amp; 관리</item>
+        <item>소매</item>
+        <item>판매원 &amp; 영업원</item>
+        <item>남종업원 &amp; 여종업원</item>
+        <item>창고</item>
+        <item>합작자</item>
+        <item>알빠생</item>
+        <item>졸업생/실습생</item>
+        <item>경비/경호원/ 보안</item>
+        <item>영업/광고/마켓팅</item>
+        <item>긴깁 구인</item>
+        <item>약사</item>
+        <item>제약 대리인</item>
+        <item>AS/수리</item>
+        <item>보험</item>
+        <item>부동산</item>
+        <item>번역원</item>
+        <item>증권</item>
+        <item>하이 테크</item>
+        <item>IT 하드웨어/네트워크</item>
+        <item>인터넷/온라인 메디어</item>
+        <item>IT-소프트웨어</item>
+        <item>기계, 제작</item>
+        <item>직물/가죽</item>
+        <item>항공/여행</item>
+        <item>전기/전자</item>
+        <item>교육/양성</item>
+        <item>회계</item>
+        <item>회계감사</item>
+        <item>의료/건강</item>
+        <item>건축/인테리어</item>
+        <item>은행</item>
+        <item>미술/예술/설계</item>
+        <item>인사</item>
+        <item>농업/산업</item>
+        <item>법리</item>
+        <item>비정부/비영리</item>
+        <item>전무이사급</item>
+        <item>광고/세일/대화</item>
+        <item>생산</item>
+        <item>알빠/단기 계약직</item>
+        <item>재정/투자</item>
+        <item>페이션</item>
+        <item>음식, 음료</item>
+        <item>방송/미디어</item>
+        <item>마켓팅</item>
+        <item>자문</item>
+        <item>운송/택배</item>
+        <item>구입/물자</item>
+        <item>통신</item>
+        <item>수출입</item>
+        <item>자동화/자동차</item>
+        <item>해외 구직</item>
+        <item>기타</item>
+
+    </string-array>
+
+    <string-array name="spNgoaiNgu">
+        <item>선택하세요</item>
+        <item>영어</item>
+        <item>프랑스어</item>
+        <item>독일어</item>
+        <item>일어</item>
+        <item>한국어</item>
+        <item>베트남어</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spNgoaiNgu2">
+        <item>영어</item>
+        <item>프랑스어</item>
+        <item>독일어</item>
+        <item>일어</item>
+        <item>한국어</item>
+        <item>베트남어</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spHocVan">
+        <item>학력</item>
+        <item>2년전문대</item>
+        <item>3년 대학</item>
+        <item>4년 대학</item>
+        <item>모두</item>
+    </string-array>
+    <string-array name="spXepLoai">
+        <item>Classification</item>
+        <item>Medium</item>
+        <item>Rather</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+    <string-array name="sex">
+        <item>남</item>
+        <item>여</item>
+        <item>성별 상관없음</item>
+    </string-array>
+
+    <string-array name="spNamKinhNghiem">
+        <item>경험</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>more 5 years</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="spsex">
+        <item>성별 상관없음</item>
+        <item>여</item>
+        <item>남</item>
+    </string-array>
+
+    <string-array name="menu_select">
+        <item>수정</item>
+        <item>삭제</item>
+        <item>공유</item>
+    </string-array>
+    <string-array name="spChucDanh">
+        <item>졸업생</item>
+        <item>실습생</item>
+        <item>직원</item>
+        <item>실장</item>
+        <item>사장</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="arr">
+        <item>지원자 리스트</item>
+        <item>합격자 리스트</item>
+    </string-array>
+</resources>

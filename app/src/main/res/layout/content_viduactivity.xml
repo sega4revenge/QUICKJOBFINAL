@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroudqjfind"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/liner"
+        android:gravity="center"
+        android:layout_marginTop="-500dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin1"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job1"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job2"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin2"
+            android:layout_below="@id/lin1"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job3"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job4"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job5"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin3"
+            android:layout_below="@id/lin2"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job6"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job7"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin4"
+            android:layout_below="@id/lin3"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job8"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job9"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin5"
+            android:layout_below="@id/lin4"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job10"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job11"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job12"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin6"
+            android:layout_below="@id/lin5"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job13"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job14"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin7"
+            android:layout_below="@id/lin6"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job15"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job16"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin8"
+            android:layout_below="@id/lin7"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job17"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job18"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job19"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin9"
+            android:layout_below="@id/lin8"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job20"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job21"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin10"
+            android:layout_below="@id/lin9"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job22"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job23"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/job"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textSize="15sp"
+
+            android:textColor="@color/black"
+
+            android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin11"
+            android:layout_below="@id/lin10"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job24"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job25"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin12"
+            android:layout_below="@id/lin11"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job26"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job27"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin13"
+            android:layout_below="@id/lin12"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job28"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job29"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin14"
+            android:layout_below="@id/lin13"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job30"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job31"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job32"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin15"
+            android:layout_below="@id/lin14"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job33"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job34"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin16"
+            android:layout_below="@id/lin15"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job36"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job37"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin17"
+            android:layout_below="@id/lin16"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job38"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job35"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin18"
+            android:layout_below="@id/lin17"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job39"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job40"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin19"
+            android:layout_below="@id/lin18"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job41"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job42"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin20"
+            android:layout_below="@id/lin19"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job43"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job44"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin21"
+            android:layout_below="@id/lin20"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job45"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job46"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin22"
+            android:layout_below="@id/lin21"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job47"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job48"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin23"
+            android:layout_below="@id/lin22"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job49"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job50"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin24"
+            android:layout_below="@id/lin23"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job51"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job52"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin25"
+            android:layout_below="@id/lin24"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job53"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job54"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lin26"
+            android:layout_below="@id/lin25"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job55"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/lin26"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job1"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/job2"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+
+                android:background="@drawable/border_textview"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#88000000"
+        android:gravity="center"
+        android:id="@+id/lin"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="40dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/border_button"
+                android:hint="@string/st_hintEmail"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textColorHint="@color/white"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/border_button"
+                android:hint="@string/st_hintPass"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textColorHint="@color/white"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/st_btnLogin"
+                android:background="@drawable/border_button"
+                android:hint="@string/st_hintPass"
+                android:padding="20dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FacebookLoginButton"
+           />
+    </LinearLayout>
+
+</FrameLayout>

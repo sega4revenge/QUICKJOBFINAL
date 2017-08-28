@@ -1,0 +1,111 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/container"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+            </FrameLayout>
+
+
+
+
+    <!-- Side navigation drawer UI -->
+    <RelativeLayout
+
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <RelativeLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="@drawable/background_material_red"
+            >
+            <com.quickjob.vinhnguyen.quickjob.adapter.CircularNetworkImageView
+                android:id="@+id/logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/logo"
+                android:layout_toEndOf="@+id/logo"
+                android:layout_marginLeft="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name"
+                    android:text="vuong vinh"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email"
+                    android:text="Vuongvinh1993@gmail.com"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@+id/name"
+                     />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <ListView
+
+            android:layout_below="@+id/top"
+            android:id="@+id/navList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:listSelector="@drawable/list_selector"
+            android:choiceMode="singleChoice"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+
+
+            >
+
+        </ListView>
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

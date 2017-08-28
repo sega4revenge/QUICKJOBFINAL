@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView_location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/xml_borderchagne"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="60dp"
+        android:id="@+id/linn">
+        <fragment
+            android:id="@+id/place_autocomplete_fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linone"
+        android:layout_below="@+id/linn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:id="@+id/btlayout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/shuffle"/>
+
+        <Button
+            android:id="@+id/btdetailjob"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:background="@drawable/look1"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

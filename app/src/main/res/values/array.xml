@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="report">
+        <item>Unreliable work content</item>
+        <item>Job Scams</item>
+        <item>Spam</item>
+        <item>Paid work</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="mucluong">
+        <item>Wage agreement</item>
+        <item>1-3 million</item>
+        <item>3-5 million</item>
+        <item>5-7 million</item>
+        <item>7-10 million</item>
+        <item>10-15 million</item>
+        <item>15-30 million</item>
+        <item>>30 million</item>
+    </string-array>
+    <string-array name="diadiem">
+        <item>Choose workplace</item>
+        <item>Hà Nội</item>
+        <item>Đà Nẵng</item>
+        <item>Hồ Chí Minh</item>
+        <item>An Giang</item>
+        <item>Bà Rịa-Vũng Tàu</item>
+        <item>Bắc Cạn</item>
+        <item>Bắc Giang</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Biên Hòa</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Cao Bằng</item>
+        <item>Đắc Lắc</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Tây</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hòa Bình</item>
+        <item>Huế</item>
+        <item>Hưng Yên</item>
+        <item>Khánh hòa</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa-Thiên-Huế</item>
+        <item>Tiền Giang</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Kiên Giang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+        <item>Quốc Tế</item>
+        <item>Hậu Giang</item>
+    </string-array>
+    <string-array name="speducation">
+        <item>High School</item>
+        <item>Intermediate</item>
+        <item>College</item>
+        <item>University</item>
+        <item>Graduate</item>
+    </string-array>
+    <string-array name="nganhNghe">
+        <item>Choose Career</item>
+        <item>Barista &amp; Bartender</item>
+        <item>Beauty &amp; Wellness</item>
+        <item>Careworkers &amp; Health</item>
+        <item>Chef &amp; Cook</item>
+        <item>Cleaning</item>
+        <item>Events &amp; Promotion</item>
+        <item>Driver &amp; Courier</item>
+        <item>Construction</item>
+        <item>Education</item>
+        <item>Kitchen porter</item>
+        <item>Office &amp; Admin</item>
+        <item>Retail</item>
+        <item>Sales &amp; Marketing</item>
+        <item>Waiter &amp; Waitress</item>
+        <item>Warehouse</item>
+        <item>Collaborators</item>
+        <item>Students do more</item>
+        <item>Just have graduated/Interns</item>
+        <item>Defense/Guard/Security</item>
+        <item>Advertiser/Marketing</item>
+        <item>Urgent Hiring</item>
+        <item>Pharmacist</item>
+        <item>Pharmaceutical representative</item>
+        <item>Maintenance</item>
+        <item>Insurance</item>
+        <item>Real estate</item>
+        <item>Translater</item>
+        <item>Stock</item>
+        <item>High technology</item>
+        <item>Hardware/network IT</item>
+        <item>Internet/Online Media</item>
+        <item>Software IT</item>
+        <item>Mechanical engineering</item>
+        <item>Textile(footwear)</item>
+        <item>Aviation/ travel</item>
+        <item>Electronics industry</item>
+        <item>Education</item>
+        <item>Accountancy</item>
+        <item>Accountant</item>
+        <item>Medical profession</item>
+        <item>Architecture/interior design</item>
+        <item>Banking</item>
+        <item>Act/design</item>
+        <item>Human resources</item>
+        <item>Agriculture/Forestry</item>
+        <item>Legal profession</item>
+        <item>Non-governmental/Non-profit</item>
+        <item>Manager</item>
+        <item>Advertising</item>
+        <item>Manufacturing</item>
+        <item>Parttime</item>
+        <item>Financial/investment</item>
+        <item>Fashion</item>
+        <item>The dinks industry</item>
+        <item>Television/Communications/Journalism</item>
+        <item>Marketing</item>
+        <item>Consultant</item>
+        <item>Transport/shipping</item>
+        <item>Procurement/ Purchasing</item>
+        <item>Telecommunications</item>
+        <item>Export import industry</item>
+        <item>Automatics/oto</item>
+        <item>Overseass Jop</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="spNgoaiNgu">
+        <item>Please choose</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Janpanese</item>
+        <item>Korean</item>
+        <item>VietNamese</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="spNgoaiNgu2">
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Janpanese</item>
+        <item>Korean</item>
+        <item>VietNamese</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="spHocVan">
+        <item>literacy</item>
+        <item>Intermediate</item>
+        <item>College</item>
+        <item>University</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="spXepLoai">
+        <item>Classification</item>
+        <item>Medium</item>
+        <item>Rather</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+    <string-array name="sex">
+        <item>Man</item>
+        <item>Woman</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="select_setting_information">
+        <item>Hà Nội</item>
+        <item>Đà Nẵng</item>
+        <item>Hồ Chí Minh</item>
+        <item>An Giang</item>
+        <item>Bà Rịa-Vũng Tàu</item>
+        <item>Bắc Cạn</item>
+        <item>Bắc Giang</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Biên Hòa</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Cao Bằng</item>
+        <item>Đắc Lắc</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Tây</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hòa Bình</item>
+        <item>Huế</item>
+        <item>Hưng Yên</item>
+        <item>Khánh hòa</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa-Thiên-Huế</item>
+        <item>Tiền Giang</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Kiên Giang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+        <item>Quốc Tế</item>
+        <item>Hậu Giang</item>
+    </string-array>
+
+    <string-array name="select_location_search">
+        <item>Select location</item>
+        <item>Hà Nội</item>
+        <item>Đà Nẵng</item>
+        <item>Hồ Chí Minh</item>
+        <item>An Giang</item>
+        <item>Bà Rịa-Vũng Tàu</item>
+        <item>Bắc Cạn</item>
+        <item>Bắc Giang</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Biên Hòa</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Cao Bằng</item>
+        <item>Đắc Lắc</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Tây</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hòa Bình</item>
+        <item>Huế</item>
+        <item>Hưng Yên</item>
+        <item>Khánh hòa</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa-Thiên-Huế</item>
+        <item>Tiền Giang</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Kiên Giang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+        <item>Quốc Tế</item>
+        <item>Hậu Giang</item>
+    </string-array>
+    <string-array name="spNamKinhNghiem">
+        <item>Experience</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>>5</item>
+    </string-array>
+
+    <string-array name="spsex">
+        <item>All Gender</item>
+        <item>Woman</item>
+        <item>Man</item>
+    </string-array>
+
+    <string-array name="menu_select">
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>Share</item>
+    </string-array>
+    <string-array name="spChucDanh">
+        <item>New graduate</item>
+        <item>Trainee</item>
+        <item>staff</item>
+        <item>Manager</item>
+        <item>Director</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="arr">
+        <item>List of applicants</item>
+        <item>List candidate chosen</item>
+    </string-array>
+</resources>
