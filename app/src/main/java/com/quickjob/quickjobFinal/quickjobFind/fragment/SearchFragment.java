@@ -464,14 +464,19 @@ public class SearchFragment extends Fragment {
                 }else{
                     namecity=getAddress(latitude,longitude);
                     Log.d("aaaaa",namecity+"");
-                    if(namecity.equals(" Da Nang"))
-                    {   namecity = "Đà Nẵng";}
-                    if(namecity.equals(" Ho Chi Minh"))
-                    {   namecity = "Hồ Chí Minh";}
-                    if(namecity.equals(" Hanoi"))
-                    {   namecity = "Hà Nội";}
-                    getData(namecity, uid);
-                    txtcategory.setText(namecity);
+                    if(namecity!=null) {
+                        if (namecity.equals(" Da Nang")) {
+                            namecity = "Đà Nẵng";
+                        }
+                        if (namecity.equals(" Ho Chi Minh")) {
+                            namecity = "Hồ Chí Minh";
+                        }
+                        if (namecity.equals(" Hanoi")) {
+                            namecity = "Hà Nội";
+                        }
+                        getData(namecity, uid);
+                        txtcategory.setText(namecity);
+                    }
                 }
 
             }

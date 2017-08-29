@@ -70,8 +70,12 @@ xmlns:tools="http://schemas.android.com/tools" package="com.quickjob.quickjobFin
         android:screenOrientation="portrait" />
     <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.MoreNew_Activity" android:label="@string/title_activity_more_new_"
         android:screenOrientation="portrait" />
-    <activity android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-        android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+    <activity android:name="com.facebook.FacebookActivity"
+        android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     <activity android:name="com.quickjob.quickjobFinal.quickjobFind.activity.LoginActivity" android:configChanges="orientation|screenSize"
         android:screenOrientation="portrait" android:theme="@style/AppThemeIntro"
         android:windowSoftInputMode="stateHidden"></activity>
