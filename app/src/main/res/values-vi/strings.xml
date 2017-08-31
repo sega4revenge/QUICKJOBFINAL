@@ -178,8 +178,8 @@
     <!--home user-->
 
     <string name="st_btnthem">Tạo</string>
-    <string name="st_chuaCoCV">Bạn chưa tạo hồ sơ (CV) nhấn vào nút "TẠO" để tạo công việc</string>
-    <string name="st_skill">Number of years of experience</string>
+    <string name="st_chuaCoCV">Bạn chưa tạo hồ sơ (CV) nhấn vào nút "TẠO" để tạo hồ sơ</string>
+    <string name="st_skill">Số năm kinh nghiệm</string>
     <string name="st_xacNhanOK">Có</string>
     <string name="st_errHoso">Hồ sơ đã được tạo</string>
     <string name="st_create_success">Tạo thành công</string>
@@ -196,7 +196,7 @@
 
     //26/10/2016
     <string name="st_oldpass">Mật khẩu cũ</string>
-    <string name="st_info">Thông tin cá nhân</string>
+    <string name="st_infoPerson">Thông tin cá nhân</string>
     <string name="st_age">Tuổi</string>
     <string name="st_changeSuccess">Thay đổi mật khẩu thành công</string>
     <string name="st_changeError">Mật khẩu nhập lại không trùng khớp</string>
@@ -701,8 +701,8 @@
     <!--<string name="no_data">Chưa có dữ liệu</string>-->
     <string name="btnChat">Chat</string>
     <string name="btnCall">Gọi</string>
-    <string name="st_qjfind">Bạn là nhà tuyển dụng! nhấn vào đây.</string>
-    <string name="st_qjhire">Bạn muốn tìm việc! nhấn vào đây.</string>
+    <string name="st_qjfind">Bạn là nhà tuyển dụng! Nhấn vào đây.</string>
+    <string name="st_qjhire">Bạn muốn tìm việc! Nhấn vào đây.</string>
     <string name="action_favorite">Lưu</string>
     <string name="title_activity_viduactivity">viduactivity</string>
     <string name="title_activity_near_maps">Map</string>

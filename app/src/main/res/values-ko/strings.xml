@@ -326,7 +326,7 @@
 
     <string name="st_andress">주소</string>
 
-    <string name="st_info">업체 정보</string>
+    <string name="st_infoPerson">업체 정보</string>
     <string name="st_age">나이</string>
     <string name="st_avatar">이미지</string>
     <string name="st_changeSuccess">암호를 성공적으로 변경했습니다</string>

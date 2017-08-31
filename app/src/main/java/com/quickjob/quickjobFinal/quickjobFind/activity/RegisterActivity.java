@@ -1,5 +1,6 @@
 package com.quickjob.quickjobFinal.quickjobFind.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -7,9 +8,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Patterns;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -51,8 +56,16 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
+        ScrollView scroll = (ScrollView)findViewById(R.id.scrollRe);
 
+        scroll.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+                return false;
+            }
+        });
         session = new SessionManager(getApplicationContext());
         HashMap<String, String> user = session.getUserDetails();
         Intent i = getIntent();
@@ -73,6 +86,7 @@ public class RegisterActivity extends AppCompatActivity {
                 EditText edmail = (EditText) findViewById(R.id.edmail);
                 EditText edpass = (EditText) findViewById(R.id.edpass);
                 EditText edrepass = (EditText) findViewById(R.id.edrepass);
+
 
 
                 edname.setError(null);
@@ -146,6 +160,10 @@ public class RegisterActivity extends AppCompatActivity {
                     AsyncDataClass asyncRequestObject = new AsyncDataClass();
                     asyncRequestObject.execute(AppConfig.URL_DANGKY_NTV,ten, email1, pass1, type);
                 }
+            }
+
+            private View getCurrentFocus() {
+                return null;
             }
         });
 

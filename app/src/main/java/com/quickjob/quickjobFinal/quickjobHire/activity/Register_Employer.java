@@ -1,13 +1,17 @@
 package com.quickjob.quickjobFinal.quickjobHire.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.transition.Scene;
+import android.view.MotionEvent;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -48,7 +52,15 @@ public class Register_Employer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register__employer_hire);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
+        ScrollView scroll = (ScrollView)findViewById(R.id.scrollEm);
+        scroll.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+                return false;
+            }
+        });
         session = new SessionManager(getApplicationContext());
         HashMap<String, String> user = session.getUserDetails();
         Intent i = getIntent();

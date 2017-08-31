@@ -487,11 +487,7 @@ public class Create_Job_Activity extends AppCompatActivity {
             focusView = ed_number_apply;
             cancel = true;
         }
-        if (TextUtils.isEmpty(request)) {
-            ed_request.setError(getString(R.string.error_field_required));
-            focusView = ed_request;
-            cancel = true;
-        }
+
         if (TextUtils.isEmpty(address_job)) {
             ed_address_job.setError(getString(R.string.error_field_required));
             focusView = ed_address_job;

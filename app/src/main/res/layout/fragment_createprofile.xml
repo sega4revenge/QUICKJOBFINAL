@@ -38,15 +38,16 @@
                             android:layout_height="wrap_content"
                             android:text="@string/st_tenProf"
                             android:textSize="13sp" />
+
                         <EditText
                             android:id="@+id/edname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="@string/st_hinttenProf"
-                            android:textSize="13dp"
-                            android:inputType="text"
+                            android:layout_marginLeft="6dp"
                             android:background="@drawable/xml_border_edittext"
-                            android:layout_marginLeft="6dp" />
+                            android:hint="@string/st_hinttenProf"
+                            android:inputType="text"
+                            android:textSize="13dp" />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -158,15 +159,17 @@
                         android:background="@drawable/xml_border_edittext"
                         android:textSize="13dp"
                         android:inputType="text" />
-                    <EditText
-                        android:id="@+id/edquequan"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:hint="@string/st_quequan"
-                        android:textSize="13dp"
-                        android:layout_marginTop="1dp"
-                        android:background="@drawable/xml_border_edittext"/>
-                    <EditText
+
+                <EditText
+                    android:id="@+id/edquequan"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/xml_border_edittext"
+                    android:hint="@string/st_quequan"
+                    android:textSize="13dp" />
+
+                <EditText
                         android:id="@+id/edgt"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"

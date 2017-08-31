@@ -269,7 +269,7 @@
     <string name="st_ttQuangCao">No advertisements, enter below to create </string>
     <string name="st_timkiemNangCao">Anvanced search</string>
     <string name="st_chuaUngTuyenCV">Jobs yet to be applied</string>
-    <string name="st_chuaCoCV">You don’t have job</string>
+    <string name="st_chuaCoCV">You don’t have profile</string>
     <string name="st_btnTaoHS">Create profile</string>
     <string name="st_chuaHSLuu">No profiles are saved</string>
     <string name="st_timUngVien">Candidates Search</string>
@@ -574,7 +574,7 @@
 
     //26/10/2016
     <!--<string name="st_oldpass">Current Password</string>-->
-    <!--<string name="st_info">Personal information</string>-->
+    <string name="st_infoPerson">Account information</string>
     <!--<string name="st_age">Age</string>-->
     <!--<string name="st_changeSuccess">Change password successful</string>-->
     <!--<string name="st_changeError">Re-enter the wrong password</string>-->
@@ -590,7 +590,7 @@
     <string name="st_title_dscv_cty">Work list</string>
     <!--<string name="st_ttud">Application Information</string>-->
 
-    <string name="st_notifi">No Notification</string>
+    <string name="st_notifi">Do not have notification</string>
     <string name="title_activity_near_maps">Map</string>
     <!--<string name="yesterday">yesterday</string>-->
     <!--<string name="anhour">an hour ago</string>-->

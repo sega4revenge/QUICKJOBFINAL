@@ -25,6 +25,7 @@ import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -81,6 +82,7 @@ import okhttp3.FormBody;
 import okhttp3.OkHttpClient;
 import okhttp3.RequestBody;
 
+
 /**
  * Created by VinhNguyen on 7/6/2016.
  */
@@ -106,7 +108,7 @@ public class CreateProfileActivity extends AppCompatActivity {
     private int year, month, day;
     private ArrayAdapter adapter, adaptennr, adapterdiadiem, adapterluong,adaptereducation;
     private int statuss = 0, stt = 0;
-    private int ss = 0,bd=0,nn,ml,xeploai1;
+    private int ss = 0,bd=0,nn=0,ml,xeploai1;
     static String image="";
     private ProgressDialog pDialog;
     // Session Manager Class
@@ -325,6 +327,76 @@ public class CreateProfileActivity extends AppCompatActivity {
                     birtdate = ngaysinh.getText().toString();
                     slogan=edslogan.getText().toString();
                     posedu=speducation.getSelectedItemPosition();
+                    boolean cancel = false;
+                    View focusView = null;
+
+                    nn = nganhNghe.getSelectedItemPosition();
+
+                    if (TextUtils.isEmpty(ten1)) {
+                        edname.setError(getString(R.string.error_field_required));
+                        focusView = edname;
+                        cancel = true;
+
+                    }
+
+                    if (TextUtils.isEmpty(birtdate)) {
+                        ngaysinh.setError(getString(R.string.error_field_required));
+                        focusView = ngaysinh;
+                        cancel = true;
+
+                    }
+                    if (TextUtils.isEmpty(mail)) {
+                        edmail.setError(getString(R.string.error_field_required));
+                        focusView = edmail;
+                        cancel = true;
+                    }
+                    if (TextUtils.isEmpty(sdt)) {
+                        edphone.setError(getString(R.string.error_field_required));
+                        focusView = edphone;
+                        cancel = true;
+                    }
+                    if (TextUtils.isEmpty(diachi)) {
+                        eddiachi.setError(getString(R.string.error_field_required));
+                        focusView = eddiachi;
+                        cancel = true;
+                    }
+                    if (TextUtils.isEmpty(quequan)) {
+                        edquequan.setError(getString(R.string.error_field_required));
+                        focusView = edquequan;
+                        cancel = true;
+                    }
+                    if (TextUtils.isEmpty(slogan)) {
+                        edslogan.setError(getString(R.string.error_field_required));
+                        focusView = edslogan;
+                        cancel = true;
+                    }
+                    if (TextUtils.isEmpty(tentruong)) {
+                        edtentruong.setError(getString(R.string.error_field_required));
+                        focusView = edtentruong;
+                        cancel = true;
+                    }
+                    if (TextUtils.isEmpty(chuyennganh)) {
+                        edchuyennganh.setError(getString(R.string.error_field_required));
+                        focusView = edchuyennganh;
+                        cancel = true;
+                    }
+                    if (TextUtils.isEmpty(thanhtuu)) {
+                        edthanhtuu.setError(getString(R.string.error_field_required));
+                        focusView = edthanhtuu;
+                        cancel = true;
+                    }
+                    if (TextUtils.isEmpty(tencv)) {
+                        edtencv.setError(getString(R.string.error_field_required));
+                        focusView = edquequan;
+                        cancel = true;
+                    }
+                    if (nn == 0) {
+                        Toast.makeText(CreateProfileActivity.this,"Hãy chọn ngành nghề", Toast.LENGTH_SHORT).show();
+                        focusView = nganhNghe;
+                        cancel = true;
+                    }
+
+
 
                     //  spxeploai.setSelection(2);
                     // xeploai1 = String.valueOf(spxeploai.getSelectedItem());

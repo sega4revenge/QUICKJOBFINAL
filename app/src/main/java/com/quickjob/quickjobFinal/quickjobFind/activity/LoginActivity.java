@@ -146,6 +146,7 @@ public class LoginActivity extends Activity {
                                     Log.i("Response", response.toString());
 
                                       email = response.getJSONObject().getString("email");
+                                    Toast.makeText(LoginActivity.this, email+"caccaccac", Toast.LENGTH_SHORT).show();
                                    /* session.setProfilepic(response.getJSONObject().getString("picture"));*/
                                    firstName = response.getJSONObject().getString("first_name");
                                      lastName = response.getJSONObject().getString("last_name");
