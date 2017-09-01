@@ -15,28 +15,9 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:id="@+id/head"
-            android:background="@drawable/vinhhalong"
+            android:background="@drawable/back_logo"
             >
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_vertical"
-                android:layout_margin="5dp">
-                <ImageView
-                    android:layout_width="22dp"
-                    android:layout_height="22dp"
-                    android:background="@drawable/ic_add"/>
-                <TextView
-                    android:id="@+id/link_login"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbars="vertical"
-                    android:textAllCaps="true"
-                    android:text="@string/st_chuacoTK"
-                    android:textSize="15dp"
-                    android:textColor="@color/white" />
-            </LinearLayout>
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
@@ -186,17 +167,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="right"
                     android:layout_marginTop="20dp">
                     <TextView
                         android:id="@+id/link_fw"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/st_forgotPass"
+                        android:text="@string/st_quenmk_ten"
                         android:textColor="@color/white"
-                        android:padding="9dp"
-                        android:textStyle="italic"
-                        android:textSize="13dp"
+                        android:padding="16dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                    <TextView
+                        android:id="@+id/link_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:padding="16dp"
+                        android:scrollbars="vertical"
+                        android:text="@string/st_chuacoTK"
+                        android:textColor="@color/white"
                         />
                 </LinearLayout>
             </LinearLayout>
