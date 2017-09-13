@@ -290,11 +290,11 @@ public class MainActivity extends AppCompatActivity   {
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_library_books_white_24dp);
         tabLayout.getTabAt(2).setCustomView(viewTab);
         tabLayout.getTabAt(3).setIcon(R.drawable.ic_assignment_ind_white_24dp);
-        tabLayout.getTabAt(4).setIcon(R.drawable.ic_account_circle_white_24dp);
+        tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
         Intent i = getIntent();
         if(!i.getBooleanExtra("setting",true)){
             tabLayout.getTabAt(0).setIcon(R.drawable.ic_home_white_24dp);
-            tabLayout.getTabAt(4).setIcon(R.drawable.ic_account_circle_black_24dp);
+            tabLayout.getTabAt(4).setIcon(R.drawable.ic_action_setting);
         }
         if(!i.getBooleanExtra("apply",true)){
             tabLayout.getTabAt(0).setIcon(R.drawable.ic_home_white_24dp);
@@ -391,7 +391,7 @@ public class MainActivity extends AppCompatActivity   {
                         changeFab();
                         // showFab();
                         tabCall.setIcon(R.drawable.icon_menus);
-                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_account_circle_white_24dp);
+                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
                         break;
                     case 1:
                         if(!fisttab)
@@ -400,7 +400,7 @@ public class MainActivity extends AppCompatActivity   {
                         fabMenu.setVisibility(View.GONE);
                         setToolbarTitle(1);
                         hideFab();
-                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_account_circle_white_24dp);
+                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
                         tabCall.setIcon(R.drawable.icons_menu2);
                         TabLayout.Tab tabCall3 = tabLayout.getTabAt(0);
                         tabCall3.setIcon(R.drawable.icon_menus);
@@ -412,7 +412,7 @@ public class MainActivity extends AppCompatActivity   {
                         changTabChat(0);
                         setToolbarTitle(2);
                         hideFab();
-                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_account_circle_white_24dp);
+                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
                         TabLayout.Tab tabCall5 = tabLayout.getTabAt(0);
                         tabCall5.setIcon(R.drawable.icon_menus);
                         break;
@@ -422,7 +422,7 @@ public class MainActivity extends AppCompatActivity   {
                         changTabChat(1);
                         setToolbarTitle(3);
                         showFab();
-                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_account_circle_white_24dp);
+                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
                         tabCall.setIcon(R.drawable.icon_menu3);
                         TabLayout.Tab tabCall4 = tabLayout.getTabAt(0);
                         tabCall4.setIcon(R.drawable.icon_menus);

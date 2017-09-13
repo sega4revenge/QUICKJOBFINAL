@@ -655,11 +655,11 @@ public class CreateProfileActivity extends AppCompatActivity {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String s) {
-                        //Disimissing the progress dialog
+
                         loading.dismiss();
                         image=s;
-                        //Showing toast message of the response
-                        // Toast.makeText(CreateProfileActivity.this, s, Toast.LENGTH_SHORT).show();
+                        Log.d("aaaaaaaaaaaa",s);
+                      //  Toast.makeText(CreateProfileActivity.this, s, Toast.LENGTH_SHORT).show();
                         CustomerAsyncTask asyncRequestObject = new CustomerAsyncTask();
                         asyncRequestObject.execute(AppConfig.URL_TAOHOSO, uniqueid, gioitinh, birtdate, mail, sdt, diachi, quequan, tentruong, chuyennganh, xeploai1+"", thanhtuu, yearskill, tencongty, chucdanh, motacv, ngoaiNgu, kyNang, ten1, tencv, dd, ml+"", nn+"", vt,posedu+"",slogan);
                     }

@@ -2,9 +2,9 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_selected="false"
-        android:drawable="@drawable/menu_account" />
+        android:drawable="@drawable/ic_setting_true" />
 
     <item
         android:state_selected="true"
-        android:drawable="@drawable/menu_account_select" />
+        android:drawable="@drawable/ic_action_setting" />
 </selector>

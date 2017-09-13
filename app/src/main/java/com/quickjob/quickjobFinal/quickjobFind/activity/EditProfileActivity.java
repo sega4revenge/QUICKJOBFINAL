@@ -83,9 +83,7 @@ import java.util.Map;
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
 
-/**
- * Created by SONTHO on 15/08/2016.
- */
+
 public class EditProfileActivity extends AppCompatActivity {
     private RadioGroup rdgroup;
     private RadioButton rdnam, rdnu;
