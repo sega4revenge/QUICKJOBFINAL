@@ -46,6 +46,7 @@ import com.dpizarro.autolabel.library.AutoLabelUI;
 import com.dpizarro.autolabel.library.AutoLabelUISettings;
 import com.dpizarro.autolabel.library.Label;
 import com.quickjob.quickjobFinal.R;
+import com.quickjob.quickjobFinal.quickjobFind.activity.EditProfileActivity;
 import com.quickjob.quickjobFinal.quickjobHire.VolleySingleton;
 import com.quickjob.quickjobFinal.quickjobHire.config.AppConfig;
 import com.quickjob.quickjobFinal.quickjobHire.config.AppController;
@@ -70,6 +71,8 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Locale;
 import java.util.Map;
+
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 import static com.quickjob.quickjobFinal.R.array.nganhNghe;
 import static com.quickjob.quickjobFinal.R.id.btnreplogo;
@@ -602,8 +605,16 @@ public class Edit_Job_activity extends AppCompatActivity {
         }
         if(jsonResult == 1){
             if(!delete_create_satus) {
-                Toast.makeText(this, getResources().getString(R.string.st_edit_success) + "", Toast.LENGTH_SHORT).show();
-                finish();
+                new SweetAlertDialog(Edit_Job_activity.this, SweetAlertDialog.SUCCESS_TYPE)
+                        .setTitleText(getResources().getString(R.string.st_edit_success))
+                        .setConfirmText(getResources().getString(R.string.st_xacNhanOK))
+                        .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                            @Override
+                            public void onClick(SweetAlertDialog sDialog) {
+                                finish();
+                            }
+                        }).show();
+
             }else{
                 Toast.makeText(this, R.string.st_xacXoaCV, Toast.LENGTH_SHORT).show();
                 finish();

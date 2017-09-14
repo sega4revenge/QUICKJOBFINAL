@@ -69,7 +69,9 @@
                         android:layout_marginTop="4dp"
                         android:id="@+id/txtslogan"
                         android:maxLines="1"
-                        android:ellipsize="end"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit ="marquee_forever"
+                        android:scrollHorizontally="true"
                         android:textColor="@android:color/white"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
@@ -133,9 +135,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/gray"
                             android:text="Email"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:paddingLeft="5dp"
                             android:id="@+id/textView8" />
 
@@ -143,10 +145,15 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="#5e4949"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:id="@+id/txtemail"
                             android:layout_marginLeft="8dp"
                             android:gravity="right"
+                            android:maxLines="1"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit ="marquee_forever"
+                            android:scrollHorizontally="true"
+
                             />
                     </LinearLayout>
                     <View
@@ -166,15 +173,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/gray"
                             android:text="@string/st_Phone"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:paddingLeft="5dp"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="#5e4949"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:layout_marginLeft="8dp"
                             android:gravity="right"
                             android:id="@+id/txtphone"/>
@@ -197,9 +204,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/gray"
                             android:text="@string/st_diachi"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:paddingLeft="5dp"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -246,23 +253,27 @@
                         android:layout_marginTop="15dp"
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:weightSum="10">
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/gray"
                             android:text="@string/st_gioitinhct"
-                            android:textSize="16sp"
-                            android:paddingLeft="5dp"/>
+                            android:textSize="14sp"
+                            android:paddingLeft="5dp"
+                            android:layout_weight="5"
+                            />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="#5e4949"
                             android:id="@+id/txtgioitinh"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:layout_marginLeft="8dp"
                             android:gravity="right"
+                            android:layout_weight="5"
                             />
                     </LinearLayout>
                     <View
@@ -282,15 +293,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/gray"
                             android:text="@string/st_Tuoi"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:paddingLeft="5dp"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="#5e4949"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:id="@+id/txtdotuoi"
                             android:layout_marginLeft="8dp"
                             android:gravity="right"/>
@@ -303,30 +314,33 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:layout_marginTop="5dp"
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#000000"
-                            android:text="@string/st_hocvancn"
-                            android:textSize="16sp"
-                            android:paddingLeft="5dp"
-                            android:id="@+id/textView4" />
+                        android:orientation="horizontal"
+                        android:weightSum="10">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textColor="#5e4949"
-                            android:textSize="16sp"
+                            android:textColor="@color/gray"
+                            android:text="@string/st_hocvancn"
+                            android:textSize="14sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/textView4"
+                            android:layout_weight="5"/>
+
+                        <TextView
                             android:id="@+id/txthocvan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:layout_marginLeft="8dp"
-                            android:gravity="right"/>
+                            android:gravity="right"
+                            android:textColor="#5e4949"
+                            android:textSize="14sp"
+                            android:layout_weight="5"/>
                     </LinearLayout>
                     <View
                         android:layout_width="match_parent"
@@ -345,15 +359,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/gray"
                             android:text="@string/st_kinhnghiem"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:paddingLeft="5dp"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="#5e4949"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:id="@+id/txtnamkn"
                             android:layout_marginLeft="8dp"
                             android:gravity="right"/>
@@ -375,16 +389,16 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/gray"
                             android:text="@string/st_ngoaingu"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:paddingLeft="5dp"/>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="#5e4949"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:id="@+id/txtnn"
                             android:layout_marginLeft="8dp"
                             android:gravity="right"/>
@@ -406,15 +420,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/gray"
                             android:text="@string/st_kinang"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:paddingLeft="5dp"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="#5e4949"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:id="@+id/txtkn"
                             android:layout_marginLeft="8dp"
                             android:gravity="right"/>
@@ -430,23 +444,26 @@
                         android:layout_marginTop="5dp"
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:weightSum="10">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/gray"
                             android:text="@string/st_mucluongct"
-                            android:textSize="16sp"
-                            android:paddingLeft="5dp"/>
+                            android:textSize="14sp"
+                            android:paddingLeft="5dp"
+                            android:layout_weight="5"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/txtluong"
                             android:textColor="#5e4949"
-                            android:textSize="16sp"
+                            android:textSize="14sp"
                             android:layout_marginLeft="8dp"
-                            android:gravity="right"/>
+                            android:gravity="right"
+                            android:layout_weight="5"/>
                     </LinearLayout>
                     <View
                         android:layout_width="match_parent"
@@ -460,23 +477,26 @@
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:weightSum="10">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/gray"
                             android:text="@string/st_workplace"
-                            android:textSize="16sp"
-                            android:paddingLeft="5dp"/>
+                            android:textSize="14sp"
+                            android:paddingLeft="5dp"
+                            android:layout_weight="5"/>
                         <TextView
                             android:id="@+id/txtwant"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textColor="#5e4949"
-                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
                             android:layout_marginLeft="8dp"
-                            android:gravity="right"/>
+                            android:gravity="right"
+                            android:layout_weight="5"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -610,16 +630,16 @@
                 android:id="@+id/fabSendMail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_email_black_24dp"
+                android:src="@drawable/ic_action_email"
                 fab:fab_label="@string/st_hintEmail"
                 fab:fab_size="mini"
-                style="@style/MenuGreen"/>
+                style="@style/MenuYellow"/>
 
             <com.github.clans.fab.FloatingActionButton
                 android:id="@+id/fabCall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_call_black_24dp"
+                android:src="@drawable/ic_action_call"
                 fab:fab_label="@string/btnCall"
                 fab:fab_size="mini"
                 style="@style/MenuGreen"/>
@@ -627,10 +647,10 @@
                 android:id="@+id/fabChat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_chat_black_24dp"
+                android:src="@drawable/ic_action_chat"
                 fab:fab_label="@string/btnChat"
                 fab:fab_size="mini"
-                style="@style/MenuGreen"/>
+                style="@style/MenuRed"/>
         </com.github.clans.fab.FloatingActionMenu>
     </RelativeLayout>
 </android.support.design.widget.CoordinatorLayout>

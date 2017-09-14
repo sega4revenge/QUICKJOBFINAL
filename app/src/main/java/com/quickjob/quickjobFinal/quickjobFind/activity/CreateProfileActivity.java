@@ -76,6 +76,7 @@ import java.util.Hashtable;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
 import okhttp3.Cache;
 import okhttp3.CacheControl;
 import okhttp3.FormBody;
@@ -801,21 +802,15 @@ public class CreateProfileActivity extends AppCompatActivity {
                 return;
             }
             if (jsonResult == 1) {
-                Toast.makeText(CreateProfileActivity.this, R.string.st_create_success, Toast.LENGTH_SHORT).show();
-                //finish();
-              /*  fragmentManager = getFragmentManager();
-                fragmentTransaction = fragmentManager.beginTransaction();
-                List_Profile main = new List_Profile();
-                fragmentTransaction.replace(R.id.container, main);
-                fragmentTransaction.commit(); */
-        /*    Intent i = new Intent(CreateProfileActivity.this, SlingdingMenuActivity.class);
-                i.putExtra("update", 1);
-                i.putExtra("USERNAME", em);
-                i.putExtra("name", ten);
-                i.putExtra("logo", logo1);
-                i.putExtra("uid", uniqueid);
-                startActivity(i);*/
-                finish();
+                new SweetAlertDialog(CreateProfileActivity.this, SweetAlertDialog.SUCCESS_TYPE)
+                        .setTitleText(getResources().getString(R.string.st_create_success))
+                        .setConfirmText(getResources().getString(R.string.st_xacNhanOK))
+                        .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                            @Override
+                            public void onClick(SweetAlertDialog sDialog) {
+                                finish();
+                            }
+                        }).show();
             }
         }
     }
@@ -859,7 +854,7 @@ public class CreateProfileActivity extends AppCompatActivity {
 
             }else{
                 pDialog.dismiss();
-                Toast.makeText(CreateProfileActivity.this, "Image Does Not exist or Network Error", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CreateProfileActivity.this, R.string.st_image_error, Toast.LENGTH_SHORT).show();
             }
         }
     }

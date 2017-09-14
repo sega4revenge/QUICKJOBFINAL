@@ -118,6 +118,7 @@
     <string name="st_errNamePass">ID or 비밀번호or 이메일 안 맞습니다</string>
     <string name="st_create_success">생성을 성공했습니다</string>
     <string name="st_edit_success">수정을 성공했습니다</string>
+    <string name="st_image_error">파일이 존재하지 않거나 인터넷이 연결되지 않다 </string>
 
 
     <!--trạng thái-->

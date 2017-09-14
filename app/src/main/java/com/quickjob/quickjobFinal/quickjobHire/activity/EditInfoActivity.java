@@ -63,8 +63,11 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
+
 
 public class EditInfoActivity extends AppCompatActivity {
+    ProgressDialog progressDoalog;
 
     private Toolbar toolbar;
    // private SessionManager session;
@@ -441,8 +444,16 @@ public class EditInfoActivity extends AppCompatActivity {
             }
 
                     if (result.equals("1") ||result.equals("2") ) {
-                        Toast.makeText(EditInfoActivity.this, "Sửa thành công", Toast.LENGTH_SHORT).show();
-                        finish();
+                        new SweetAlertDialog(EditInfoActivity.this, SweetAlertDialog.SUCCESS_TYPE)
+                                .setTitleText(getResources().getString(R.string.st_edit_success))
+                                .setConfirmText(getResources().getString(R.string.st_xacNhanOK))
+                                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                                    @Override
+                                    public void onClick(SweetAlertDialog sDialog) {
+                                        finish();
+                                    }
+                                }).show();
+
                     }else{
                         Toast.makeText(EditInfoActivity.this, R.string.st_errServer, Toast.LENGTH_SHORT).show();
                     }
@@ -498,6 +509,7 @@ public class EditInfoActivity extends AppCompatActivity {
     }
 
     private void uploadImage() {
+        ProgressDialog progressDoalog;
         //Showing the progress dialog
         final ProgressDialog loading = ProgressDialog.show(this, getString(R.string.st_uploading), getString(R.string.st_plsWait), false, false);
         StringRequest stringRequest = new StringRequest(Request.Method.POST, AppConfig.URL_UPLOAD,

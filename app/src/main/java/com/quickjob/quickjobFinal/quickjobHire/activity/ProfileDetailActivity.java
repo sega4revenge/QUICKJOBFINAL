@@ -351,6 +351,7 @@ public class ProfileDetailActivity extends AppCompatActivity {
                 name = ob.getString("hoten");
                 sdt = ob.getString("sdt");
                 mail = ob.getString("email");
+
                 Glide.with(ProfileDetailActivity.this).load(ob.getString("img"))
                         .crossFade()
                         .thumbnail(0.5f)

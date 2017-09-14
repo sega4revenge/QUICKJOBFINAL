@@ -202,13 +202,13 @@ public void setNumMessagerTab(int num)
         tabLayout.getTabAt(1).setIcon(R.drawable.menu_saveprofile);
         tabLayout.getTabAt(2).setCustomView(viewTab);
         tabLayout.getTabAt(3).setIcon(R.drawable.menu_manager_job);
-        tabLayout.getTabAt(4).setIcon(R.drawable.menu_account);
+        tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
         Intent i = getIntent();
         if(!i.getBooleanExtra("setting",true)){
             tabLayout.getTabAt(0).setIcon(R.drawable.menu_search_select);
             tabLayout.getTabAt(4).setIcon(R.drawable.menu_account_select);
         }else{
-            tabLayout.getTabAt(4).setIcon(R.drawable.menu_account);
+            tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
         }
         View v = tabLayout.getTabAt(2).getCustomView();
         badge = new BadgeView(MainActivity.this, v);
@@ -264,14 +264,14 @@ public void setNumMessagerTab(int num)
                         setToolbarTitle(0);
                         showFab();
                         changTabChat(1);
-                        tabLayout.getTabAt(4).setIcon(R.drawable.menu_account);
+                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
                         tabCall.setIcon(R.drawable.icon_menus);
                         break;
                     case 1:
                         backtop();
                         hideFab();
                         changTabChat(1);
-                        tabLayout.getTabAt(4).setIcon(R.drawable.menu_account);
+                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
                         setToolbarTitle(1);
                         tabCall.setIcon(R.drawable.icons_menu2);
                         TabLayout.Tab tabCall2 = tabLayout.getTabAt(0);
@@ -281,7 +281,7 @@ public void setNumMessagerTab(int num)
                         backtop();
                         hideFab();
                         changTabChat(0);
-                        tabLayout.getTabAt(4).setIcon(R.drawable.menu_account);
+                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
                         setToolbarTitle(2);
                         tabCall.setIcon(R.drawable.icons_menus_chat);
                         TabLayout.Tab tabCall5 = tabLayout.getTabAt(0);
@@ -291,7 +291,7 @@ public void setNumMessagerTab(int num)
                         setToolbarTitle(3);
                         showFab();
                         changTabChat(1);
-                        tabLayout.getTabAt(4).setIcon(R.drawable.menu_account);
+                        tabLayout.getTabAt(4).setIcon(R.drawable.ic_setting_true);
                         tabCall.setIcon(R.drawable.icon_menu3);
                         TabLayout.Tab tabCall3 = tabLayout.getTabAt(0);
                         tabCall3.setIcon(R.drawable.icon_menus);

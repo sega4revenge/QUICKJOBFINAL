@@ -85,7 +85,7 @@
     <!--login-->
     <string name="st_hintEmail">Email</string>
     <string name="st_hintPass">Mật khẩu</string>
-    <string name="st_forgotPass"><u>quên mật khẩu?</u></string>
+    <string name="st_forgotPass"><u>Quên mật khẩu?</u></string>
     <string name="st_txtDangNhap">Đã có tài khoản? Đăng nhập ngay!</string>
     <string name="st_renewpass">Nhập lại mật khẩu</string>
     <string name="st_nhapMaXN">Nhập mã xác nhận</string>
@@ -291,7 +291,7 @@
     <string name="ST_info">Nhấn vào đây để xem thông tin tài khoản</string>
     <string name="ST_pass">Nhấn vào đây để thay đổi mật khẩu</string>
     <string name="ST_logout">Nhấn vào đây để thoát</string>
-    <string name="ST_appinfo">Nhấn vào đây để xem thông tin ứng dụng và liên lạc với chúng tôi</string>
+    <string name="ST_appinfo">Nhấn vào đây để xem thông tin ứng dụng</string>
     <string name="add_messager">Nhập tin nhắn...</string>
     <string-array name="languages">
         <item>Tiếng Anh</item>
@@ -594,7 +594,7 @@
     <!--<string name="st_hocVanTitle">HỌC VẤN</string>-->
     <string name="st_taoProfile">Tạo</string>
     <string name="st_dangTinQC">Đăng tin quảng cáo</string>
-
+    <string name="st_image_error">Ảnh đã tồn tại hoặc mạng xảy ra lỗi</string>
 
     // chi tiết hồ sơ
     <string name="st_hs">HỒ SƠ</string>

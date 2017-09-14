@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:id="@+id/head"
-            android:background="@drawable/back_logo"
+            android:background="@drawable/back_finish"
             >
             <ImageView
                 android:layout_width="match_parent"

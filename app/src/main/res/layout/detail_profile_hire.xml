@@ -139,6 +139,7 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="10dp"
                             android:text="@string/st_ttLienHe"
+                            android:textStyle="bold"
 
                             />
                     </LinearLayout>
@@ -258,6 +259,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textStyle="bold"
                             android:textColor="@color/color1"
                             android:textSize="18sp"
                             android:layout_marginLeft="15dp"

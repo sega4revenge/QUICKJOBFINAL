@@ -115,6 +115,7 @@
     <string name="st_errNamePass">The name of login or password or email is invalid</string>
     <string name="st_create_success">Create successfully</string>
     <string name="st_edit_success">Edit successfully</string>
+    <string name="st_image_error">Image Does Not exist or Network Error</string>
 
     <!--trạng thái-->
     <string name="st_stt_dangcho">Waiting</string>
@@ -216,7 +217,7 @@
     <!--edit_profile-->
     <string name="st_tenProf">Name</string>
     <string name="st_btnChonNgaySinh">Choose/ select the date of birthday</string>
-    <string name="st_ttLienHe">CONTACTED INFORMATION</string>
+    <string name="st_ttLienHe">CONTACT INFORMATION</string>
     <string name="st_ttKinhNghiem">Experience(optional)</string>
     <string name="st_ttCongViec">Desired job</string>
     <string name="st_ttnnAdd">No foreign languages, enter (+) to add.</string>
@@ -676,7 +677,7 @@
     <!--<string name="ST_info">Click here view account information</string>-->
     <string name="ST_pass">Click here to change password</string>
     <string name="ST_logout">Click here to logout</string>
-    <string name="ST_appinfo">Click here to view application information and contact us</string>
+    <string name="ST_appinfo">Click here to see application information</string>
     <string name="title_activity_chatting">Chat</string>
     <!--<string name="add_messager">Enter the message...</string>-->
     <!--<string-array name="languages">-->

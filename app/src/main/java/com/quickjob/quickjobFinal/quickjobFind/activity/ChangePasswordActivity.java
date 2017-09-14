@@ -33,9 +33,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * Created by SONTHO on 15/08/2016.
- */
+
 public class ChangePasswordActivity extends AppCompatActivity {
 
     private String uid;
