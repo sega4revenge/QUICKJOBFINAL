@@ -106,18 +106,14 @@
         <item>Education</item>
         <item>Kitchen porter</item>
         <item>Office &amp; Admin</item>
-        <item>Retail</item>
         <item>Sales &amp; Marketing</item>
         <item>Waiter &amp; Waitress</item>
         <item>Warehouse</item>
         <item>Collaborators</item>
-        <item>Students do more</item>
+        <item>Part time job for student</item>
         <item>Just have graduated/Interns</item>
         <item>Defense/Guard/Security</item>
-        <item>Advertiser/Marketing</item>
-        <item>Urgent Hiring</item>
         <item>Pharmacist</item>
-        <item>Pharmaceutical representative</item>
         <item>Maintenance</item>
         <item>Insurance</item>
         <item>Real estate</item>
@@ -131,33 +127,22 @@
         <item>Textile(footwear)</item>
         <item>Aviation/ travel</item>
         <item>Electronics industry</item>
-        <item>Education</item>
-        <item>Accountancy</item>
-        <item>Accountant</item>
+        <item>Accountancy/Accountant</item>
         <item>Medical profession</item>
-        <item>Architecture/interior design</item>
+        <item>Architecture/Interior design</item>
         <item>Banking</item>
         <item>Act/design</item>
         <item>Human resources</item>
         <item>Agriculture/Forestry</item>
         <item>Legal profession</item>
-        <item>Non-governmental/Non-profit</item>
         <item>Manager</item>
-        <item>Advertising</item>
-        <item>Manufacturing</item>
-        <item>Parttime</item>
         <item>Financial/investment</item>
         <item>Fashion</item>
-        <item>The dinks industry</item>
         <item>Television/Communications/Journalism</item>
-        <item>Marketing</item>
         <item>Consultant</item>
-        <item>Transport/shipping</item>
-        <item>Procurement/ Purchasing</item>
+        <item>Transport/Shipping</item>
         <item>Telecommunications</item>
-        <item>Export import industry</item>
         <item>Automatics/oto</item>
-        <item>Overseass Jop</item>
         <item>Other</item>
     </string-array>
 

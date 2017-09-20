@@ -243,18 +243,14 @@
         <item>교육</item>
         <item>요리사 보조원</item>
         <item>사무 &amp; 관리</item>
-        <item>소매</item>
         <item>판매원 &amp; 영업원</item>
         <item>남종업원 &amp; 여종업원</item>
         <item>창고</item>
         <item>합작자</item>
-        <item>알빠생</item>
+        <item>아르바이트</item>
         <item>졸업생/실습생</item>
         <item>경비/경호원/ 보안</item>
-        <item>영업/광고/마켓팅</item>
-        <item>긴깁 구인</item>
         <item>약사</item>
-        <item>제약 대리인</item>
         <item>AS/수리</item>
         <item>보험</item>
         <item>부동산</item>
@@ -268,9 +264,7 @@
         <item>직물/가죽</item>
         <item>항공/여행</item>
         <item>전기/전자</item>
-        <item>교육/양성</item>
-        <item>회계</item>
-        <item>회계감사</item>
+        <item>회계/회계감사</item>
         <item>의료/건강</item>
         <item>건축/인테리어</item>
         <item>은행</item>
@@ -278,25 +272,15 @@
         <item>인사</item>
         <item>농업/산업</item>
         <item>법리</item>
-        <item>비정부/비영리</item>
         <item>전무이사급</item>
-        <item>광고/세일/대화</item>
-        <item>생산</item>
-        <item>알빠/단기 계약직</item>
         <item>재정/투자</item>
         <item>페이션</item>
-        <item>음식, 음료</item>
         <item>방송/미디어</item>
-        <item>마켓팅</item>
         <item>자문</item>
         <item>운송/택배</item>
-        <item>구입/물자</item>
         <item>통신</item>
-        <item>수출입</item>
         <item>자동화/자동차</item>
-        <item>해외 구직</item>
         <item>기타</item>
-
     </string-array>
 
     <string-array name="spNgoaiNgu">

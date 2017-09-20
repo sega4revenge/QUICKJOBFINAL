@@ -45,7 +45,7 @@
 
                 <LinearLayout
                     android:id="@+id/main.linearlayout.title"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:orientation="vertical"
@@ -63,7 +63,7 @@
                         />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="4dp"
@@ -75,6 +75,7 @@
                         android:textColor="@android:color/white"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
+                        tools:text="kkjlkasjldkaklsdklasjdlkasjdlkasjdlkajskldlksakjdlkasjkldalksjdlkasjdklasjkldaksdklasjdlkasjdklajslkdjaslk"
                         />
 
                 </LinearLayout>
@@ -440,7 +441,7 @@
                         android:background="@color/colorGrey"/>
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
@@ -448,7 +449,7 @@
                         android:weightSum="10">
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="@color/gray"
                             android:text="@string/st_mucluongct"

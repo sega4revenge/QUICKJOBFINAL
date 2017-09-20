@@ -227,7 +227,7 @@
         <item>Chọn Ngành nghề</item>
         <item>Pha chế</item>
         <item>Làm đẹp &amp; Spa</item>
-        <item>Nhân viên Chăm sóc</item>
+        <item>Nhân viên chăm sóc</item>
         <item>Đầu bếp</item>
         <item>Dọn vệ sinh</item>
         <item>Sự kiện &amp; Khuyến mãi</item>
@@ -236,7 +236,6 @@
         <item>Giáo dục</item>
         <item>Nhân viên Bếp</item>
         <item>Văn phòng &amp; Quản trị</item>
-        <item>Bán lẻ</item>
         <item>Bán Hàng &amp; Tiếp thị</item>
         <item>Phục vụ Nam &amp; Phục vụ Nữ</item>
         <item>Kho Hàng</item>
@@ -244,15 +243,12 @@
         <item>Sinh viên làm thêm</item>
         <item>Sinh viên mới tốt nghiệp/Thực tập</item>
         <item>Bảo vệ/vệ sĩ/An ninh</item>
-        <item>Tiếp thị/Quảng cáo/Marketing</item>
-        <item>Việc cần tuyển gấp</item>
         <item>Dược sỹ</item>
-        <item>Trình dược viên</item>
         <item>Bảo trì/Sửa chửa</item>
         <item>Bảo hiểm</item>
         <item>Bất động sản</item>
-        <item>Biên dịch viên</item>
-        <item>Chứng khoáng</item>
+        <item>Phiên dịch</item>
+        <item>Chứng khoán</item>
         <item>Công nghệ cao</item>
         <item>IT Phần cứng/Mạng</item>
         <item>Internet/Online Media</item>
@@ -261,9 +257,7 @@
         <item>Dệt may/Da giày</item>
         <item>Hàng không/Du lịch</item>
         <item>Điện/Điện tử</item>
-        <item>Giáo dục/Đào tạo</item>
-        <item>Kế toán</item>
-        <item>Kiểm toán</item>
+        <item>Kế toán/Kiểm toán</item>
         <item>Y tế/Chăm sóc sức khỏe</item>
         <item>Kiến trúc/Thiết kế nội thất</item>
         <item>Ngân hàng</item>
@@ -271,23 +265,13 @@
         <item>Nhân sự</item>
         <item>Nông nghiệp/Lâm nghiệp</item>
         <item>Pháp lý</item>
-        <item>Phi chính phủ/Phi lợi nhuận</item>
         <item>Cấp quản lý điều hành</item>
-        <item>Quản cáo/Khuyến mại/Đối thoại</item>
-        <item>Sản Xuất</item>
-        <item>Thời vụ/Hợp đồng ngắn hạn</item>
         <item>Tài chính/Đầu tư</item>
         <item>Thời trang</item>
-        <item>Thực phẩm đồ uống</item>
         <item>Truyền hình/Truyền thông/Báo chí</item>
-        <item>Marketing</item>
         <item>Tư vấn</item>
-        <item>Vận chuyển/Giao nhận</item>
-        <item>Thu mua/Vật tư/Cung vận</item>
         <item>Viễn thông</item>
-        <item>Xuất nhập khẩu</item>
         <item>Tự động hóa/Ôtô</item>
-        <item>Overseass Jop</item>
         <item>Khác</item>
     </string-array>
     <string-array name="speducation">
