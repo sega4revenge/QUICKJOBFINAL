@@ -711,4 +711,5 @@
     <string name="st_deleteprofile">정말로 프로필을 삭제 하시겠습니까?</string>
     <string name="st_chuacoCV">너는 직업이 없다</string>
     <string name="st_chuaSaveCV">저장된 작업 없음</string>
+    <string name="st_err_nganhnghe">Please choose carrer</string>
 </resources>

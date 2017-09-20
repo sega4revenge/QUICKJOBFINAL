@@ -89,7 +89,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class MainActivity extends AppCompatActivity {
     Boolean exit = false;
-
+    private int carrer=0;
     public ScrollView scroll;
     private static final int PLACE_PICKER_REQUEST = 3;
     double lat, lng;
@@ -746,7 +746,7 @@ public void setNumMessagerTab(int num)
         strReq.setTag(this.getClass().getName());
         VolleySingleton.getInstance(MainActivity.this).requestQueue.add(strReq);
     }
-    public void edit(String tenct, String tencv, String nganhnghe, String hannop, String mucluong, String soluong, String diachi, String mota, String yeucau, final String type, final String macv){
+    public void edit(String tenct, String tencv, final String nganhnghe, String hannop, String mucluong, String soluong, String diachi, String mota, String yeucau, final String type, final String macv){
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         final View view1 = inflater.inflate(R.layout.createjob_steptwo_hire, null);
@@ -857,6 +857,12 @@ public void setNumMessagerTab(int num)
                 addr = address.getText() + "";
                 deta = detail.getText() + "";
                 difference = khac.getText() + "";
+                boolean cancel = false;
+                View focusView = null;
+                carrer = spnganh.getSelectedItemPosition();
+                if (carrer == 0) {
+                    Toast.makeText(getApplication(),R.string.st_err_nganhnghe, Toast.LENGTH_SHORT).show();
+                }
                 if ( job == null || job.equals("") || addr == null || addr.equals("") || number == null || number.equals("") || limitapply == null || limitapply.equals("")) {
                     Toast.makeText(MainActivity.this, getResources().getString(R.string.st_err_taocv) + "", Toast.LENGTH_SHORT).show();
                 } else {

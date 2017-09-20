@@ -700,4 +700,5 @@
     <!--<string name="no_data">Do not have data</string>-->
     <string name="changelocation">Change Location</string>
     <string name="report_problem">REPORT A PROBLEM</string>
+    <string name="st_err_nganhnghe">Please choose carrer</string>
 </resources>

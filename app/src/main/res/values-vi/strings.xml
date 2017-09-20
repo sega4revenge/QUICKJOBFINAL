@@ -708,4 +708,5 @@
     <string name="title_activity_near_maps">Map</string>
     <string name="title_activity_information__company">Information_Company</string>
     <string name="title_activity_chatting">Chat</string>
+    <string name="st_err_nganhnghe">hãy chọn ngành nghề</string>
 </resources>
