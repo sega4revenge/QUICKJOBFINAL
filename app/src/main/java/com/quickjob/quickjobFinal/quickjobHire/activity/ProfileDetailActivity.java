@@ -188,6 +188,7 @@ public class ProfileDetailActivity extends AppCompatActivity {
         imgAvata = (ImageView) findViewById(R.id.imglogo);
         txtwant= (TextView) findViewById(R.id.txtwant);
         txtslogan = (TextView) findViewById(R.id.txtslogan);
+        txtslogan.setSelected(true);
         txtname = (TextView) findViewById(R.id.txtname);
         txtgioitinh = (TextView) findViewById(R.id.txtgioitinh);
         txttuoi = (TextView) findViewById(R.id.txtdotuoi);

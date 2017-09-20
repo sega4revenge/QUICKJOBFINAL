@@ -15,13 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:id="@+id/head"
-            android:background="@drawable/back_finish"
+
             >
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:background="#69000000"
+                android:background="@drawable/bg_job"
+                android:alpha="0.3"
                 />
 
 
