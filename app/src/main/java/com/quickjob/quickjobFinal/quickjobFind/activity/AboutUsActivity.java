@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.quickjob.quickjobFinal.R;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 
 import mehdi.sakout.aboutpage.AboutPage;
